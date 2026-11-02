@@ -20,7 +20,8 @@ const readJSON = (f) => JSON.parse(fs.readFileSync(f, "utf8"));
 
 const YEAR = "2026";
 const RANGE_START = "2026-04-30";
-const RANGE_END = "2026-10-30";
+const BF_END = "2026-10-30"; // last day covered by the one-off 6-month backfill (tmp/bf, tmp/yoy)
+let RANGE_END = BF_END; // chart end = latest day with data (extended by the daily snapshots)
 
 // Judgement on sub-categories whose competitors are not like-for-like (checked against the sub-category NAME, not verified product by product)
 const FLAGS = {
@@ -105,7 +106,7 @@ function expandSegments(segments) {
   const fmt = (dt) => dt.toISOString().slice(0, 10);
   for (let i = 0; i < segments.length; i++) {
     const from = day(startsISO[i]);
-    const to = i + 1 < segments.length ? day(startsISO[i + 1]) : new Date(day(RANGE_END).getTime() + 86400000);
+    const to = i + 1 < segments.length ? day(startsISO[i + 1]) : new Date(day(BF_END).getTime() + 86400000);
     // a rank that "holds" for more than 14 days is stale data (e.g. inactive listing): keep 7 days, leave the rest empty
     const spanDays = Math.round((to - from) / 86400000);
     for (let t = from, n = 0; t < to; t = new Date(t.getTime() + 86400000), n++) out[fmt(t)] = (spanDays > 14 && n >= 7) ? null : segments[i][1];
@@ -129,7 +130,7 @@ function mergeBackfill() {
   }
   // year-over-year: BSR on the same day one year before RANGE_END (last segment starting on/before it)
   const ydir = P("tmp", "yoy");
-  const target = (Number(RANGE_END.slice(0, 4)) - 1) + RANGE_END.slice(4);
+  const target = (Number(BF_END.slice(0, 4)) - 1) + BF_END.slice(4);
   store.yoy = store.yoy || {};
   if (fs.existsSync(ydir)) {
     for (const f of fs.readdirSync(ydir).filter(x => x.endsWith(".json"))) {
@@ -151,6 +152,11 @@ function mergeBackfill() {
       if ((store.yoy[key] === undefined || store.yoy[key] === null) && r.yoy != null) store.yoy[key] = r.yoy;
     }
   }
+  // daily snapshots (scripts/daily_update.mjs) after the backfill: keep the best-BSR records current
+  for (const [key, b] of Object.entries(store.best)) {
+    const sr = store.series[key]; if (!sr) continue;
+    for (const d of Object.keys(sr)) if (d > BF_END && sr[d] != null) for (const w of ["y1", "y2", "all"]) if (b[w] && sr[d] < b[w].bsr) b[w] = { bsr: sr[d], date: d };
+  }
   fs.writeFileSync(storeFile, JSON.stringify(store));
   console.log("backfill merged:", merged, "series,", failed, "failed/empty");
   return store;
@@ -159,6 +165,9 @@ function mergeBackfill() {
 function build(store) {
   const cfg = readJSON(P("config", "competitors.json"));
   const sets = readJSON(P("config", "competitor_sets.json"));
+  let lastDay = BF_END;
+  for (const sr of Object.values(store.series)) for (const d of Object.keys(sr)) if (sr[d] != null && d > lastDay) lastDay = d;
+  RANGE_END = lastDay;
   const dates = [];
   for (let t = new Date(RANGE_START + "T00:00:00Z"); t <= new Date(RANGE_END + "T00:00:00Z"); t = new Date(t.getTime() + 86400000)) dates.push(t.toISOString().slice(0, 10));
 
