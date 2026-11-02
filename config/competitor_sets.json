@@ -1,0 +1,5373 @@
+{
+ "KCB|IT": {
+  "status": "ok",
+  "node": 1806414031,
+  "reused_from": null,
+  "hero": "B07G85PQ5J",
+  "cfg_hero": "B07G84LSYJ",
+  "ours": [
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 1,
+    "sales": 1580
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 2,
+    "sales": 637
+   },
+   {
+    "asin": "B0D4ZNFKYQ",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZMPS1Z",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 2,
+    "sales": 627
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0D9R594WP",
+    "brand": "Infantino",
+    "rank": 85,
+    "sub": 4,
+    "sales": 1469
+   },
+   {
+    "asin": "B0FRMM1B5D",
+    "brand": "momcozy",
+    "rank": 403,
+    "sub": 2,
+    "sales": 651
+   },
+   {
+    "asin": "B0DPW1D5W5",
+    "brand": "Sleepy Wrap",
+    "rank": 691,
+    "sub": 5,
+    "sales": 384
+   },
+   {
+    "asin": "B0FSRG158C",
+    "brand": "AOOWU",
+    "rank": 787,
+    "sub": 6,
+    "sales": 270
+   },
+   {
+    "asin": "B0F21PWPY5",
+    "brand": "Jane",
+    "rank": 1743,
+    "sub": 14,
+    "sales": 207
+   },
+   {
+    "asin": "B0DHXN4PT2",
+    "brand": "Laleni",
+    "rank": 1080,
+    "sub": 7,
+    "sales": 205
+   },
+   {
+    "asin": "B0C2Z2XZQ1",
+    "brand": "Ergobaby",
+    "rank": 1180,
+    "sub": 8,
+    "sales": 187
+   },
+   {
+    "asin": "B0BWSML9XT",
+    "brand": "Boba",
+    "rank": 1597,
+    "sub": 10,
+    "sales": 147
+   }
+  ]
+ },
+ "KCB|FR": {
+  "status": "ok",
+  "node": 3966193031,
+  "reused_from": null,
+  "hero": "B07G85W2CN",
+  "cfg_hero": "B07G84LSYJ",
+  "ours": [
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 2,
+    "sales": 1125
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 2,
+    "sales": 1116
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 4,
+    "sales": 228
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH2RSGC",
+    "brand": "momcozy",
+    "rank": 76,
+    "sub": 1,
+    "sales": 2286
+   },
+   {
+    "asin": "B0DPNCVDK9",
+    "brand": "Sleepy Wrap",
+    "rank": 601,
+    "sub": 3,
+    "sales": 677
+   },
+   {
+    "asin": "B0GX8YB29Y",
+    "brand": "JOYNCLEON",
+    "rank": 1311,
+    "sub": 104,
+    "sales": 203
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 1934,
+    "sub": 52,
+    "sales": 197
+   },
+   {
+    "asin": "B0FBQZ4DPJ",
+    "brand": "Mumgaroo",
+    "rank": 2122,
+    "sub": 8,
+    "sales": 161
+   },
+   {
+    "asin": "B0FDVVDNRP",
+    "brand": "IBOPUXIU",
+    "rank": 2004,
+    "sub": 11,
+    "sales": 161
+   },
+   {
+    "asin": "B0F6N85NBX",
+    "brand": "Bebamour",
+    "rank": 2355,
+    "sub": 59,
+    "sales": 130
+   },
+   {
+    "asin": "B09YZ18RQD",
+    "brand": "Ergobaby",
+    "rank": 2110,
+    "sub": 7,
+    "sales": 122
+   }
+  ]
+ },
+ "KCB|DE": {
+  "status": "ok",
+  "node": 3968908031,
+  "reused_from": null,
+  "hero": "B07G85PQ5J",
+  "cfg_hero": "B07G84LSYJ",
+  "ours": [
+   {
+    "asin": "B07G85W2CN",
+    "sub": 2,
+    "sales": 1466
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 2,
+    "sales": 1466
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 7,
+    "sales": 368
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 7,
+    "sales": 357
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQGYB7FK",
+    "brand": "Momcozy",
+    "rank": 283,
+    "sub": 1,
+    "sales": 1683
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 308,
+    "sub": 21,
+    "sales": 1384
+   },
+   {
+    "asin": "B0DHXP7M95",
+    "brand": "Laleni",
+    "rank": 329,
+    "sub": 3,
+    "sales": 1266
+   },
+   {
+    "asin": "B0CWMJD2ZM",
+    "brand": "Boba",
+    "rank": 1079,
+    "sub": 5,
+    "sales": 606
+   },
+   {
+    "asin": "B0HG95HTFX",
+    "brand": "bebear",
+    "rank": 812,
+    "sub": 20,
+    "sales": 515
+   },
+   {
+    "asin": "B091F86N38",
+    "brand": "KeaBabies",
+    "rank": 1026,
+    "sub": 4,
+    "sales": 481
+   },
+   {
+    "asin": "B0FMYGZ75J",
+    "brand": "Ergobaby",
+    "rank": 1217,
+    "sub": 10,
+    "sales": 421
+   },
+   {
+    "asin": "B0CDPGG96N",
+    "brand": "bebear",
+    "rank": 1232,
+    "sub": 16,
+    "sales": 322
+   }
+  ]
+ },
+ "KCB|ES": {
+  "status": "ok",
+  "node": 1909314031,
+  "reused_from": null,
+  "hero": "B07G85PQ5J",
+  "cfg_hero": "B07G84LSYJ",
+  "ours": [
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 1,
+    "sales": 968
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 1,
+    "sales": 968
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 5,
+    "sales": 429
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZNFKYQ",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 5,
+    "sales": 411
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH2GJ4P",
+    "brand": "momcozy",
+    "rank": 199,
+    "sub": 2,
+    "sales": 861
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 287,
+    "sub": 3,
+    "sales": 820
+   },
+   {
+    "asin": "B0FDKW6HL1",
+    "brand": "AOOWU",
+    "rank": 549,
+    "sub": 4,
+    "sales": 409
+   },
+   {
+    "asin": "B0F53PF26N",
+    "brand": "Quimets",
+    "rank": 514,
+    "sub": 25,
+    "sales": 388
+   },
+   {
+    "asin": "B00OJVNSFA",
+    "brand": "CuddleBug",
+    "rank": 1038,
+    "sub": 9,
+    "sales": 290
+   },
+   {
+    "asin": "B0DPW2LGSW",
+    "brand": "Sleepy Wrap",
+    "rank": 902,
+    "sub": 6,
+    "sales": 280
+   },
+   {
+    "asin": "B0CCF7QX7R",
+    "brand": "Boba",
+    "rank": 946,
+    "sub": 7,
+    "sales": 228
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 751,
+    "sub": 59,
+    "sales": 194
+   }
+  ]
+ },
+ "KCB|UK": {
+  "status": "ok",
+  "node": 60542031,
+  "reused_from": null,
+  "hero": "B07G85PQ5J",
+  "cfg_hero": "B07G84LSYJ",
+  "ours": [
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 5,
+    "sales": 614
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH7CF4S",
+    "brand": "momcozy",
+    "rank": 433,
+    "sub": 1,
+    "sales": 1951
+   },
+   {
+    "asin": "B0F1C1WKT2",
+    "brand": "Sanilinwild",
+    "rank": 661,
+    "sub": 3,
+    "sales": 1716
+   },
+   {
+    "asin": "B0CYM1S144",
+    "brand": "trekki",
+    "rank": 609,
+    "sub": 2,
+    "sales": 1563
+   },
+   {
+    "asin": "B0DPN9VCHW",
+    "brand": "Sleepy Wrap",
+    "rank": 827,
+    "sub": 4,
+    "sales": 613
+   },
+   {
+    "asin": "B07NZVGTK9",
+    "brand": "Boba",
+    "rank": 2016,
+    "sub": 10,
+    "sales": 611
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 1278,
+    "sub": 45,
+    "sales": 567
+   },
+   {
+    "asin": "B07CT5XK1C",
+    "brand": "RYLOOBABY",
+    "rank": 1321,
+    "sub": 6,
+    "sales": 458
+   },
+   {
+    "asin": "B0GGZMGZ4N",
+    "brand": "AYESY",
+    "rank": 1977,
+    "sub": 7,
+    "sales": 352
+   }
+  ]
+ },
+ "KCB|US": {
+  "status": "ok",
+  "node": 166833011,
+  "reused_from": null,
+  "hero": "B07G85PQ5J",
+  "cfg_hero": "B07G84LSYJ",
+  "ours": [
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 19,
+    "sales": 950
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0DG86PT24",
+    "brand": "KeaBabies",
+    "rank": 130,
+    "sub": 1,
+    "sales": 25531
+   },
+   {
+    "asin": "B0F2456YCR",
+    "brand": "Momcozy",
+    "rank": 420,
+    "sub": 2,
+    "sales": 13947
+   },
+   {
+    "asin": "B005SP5TX0",
+    "brand": "Boba",
+    "rank": 543,
+    "sub": 3,
+    "sales": 11009
+   },
+   {
+    "asin": "B0GQD9D9Q5",
+    "brand": "Solly Baby",
+    "rank": 920,
+    "sub": 4,
+    "sales": 7564
+   },
+   {
+    "asin": "B07R8HC696",
+    "brand": "TushBaby",
+    "rank": 1256,
+    "sub": 7,
+    "sales": 5997
+   },
+   {
+    "asin": "B0DT2DL97R",
+    "brand": "WildBird",
+    "rank": 1185,
+    "sub": 87,
+    "sales": 5564
+   },
+   {
+    "asin": "B0H45LFL5S",
+    "brand": "yemyig",
+    "rank": 2053,
+    "sub": 7,
+    "sales": 4755
+   },
+   {
+    "asin": "B0D2NPSDDR",
+    "brand": "Beyoik",
+    "rank": 1224,
+    "sub": 5,
+    "sales": 3213
+   }
+  ]
+ },
+ "KSC|IT": {
+  "status": "ok",
+  "node": 1806706031,
+  "reused_from": null,
+  "hero": "B07ND58735",
+  "cfg_hero": "B085NY3RJQ",
+  "ours": [
+   {
+    "asin": "B085NY3RJQ",
+    "sub": 440,
+    "sales": 1
+   },
+   {
+    "asin": "B07ND58735",
+    "sub": null,
+    "sales": 1170
+   },
+   {
+    "asin": "B07Y7JSRNJ",
+    "sub": 10,
+    "sales": 1140
+   },
+   {
+    "asin": "B07FC37H9N",
+    "sub": null,
+    "sales": 990
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B08HDGKR5B",
+    "brand": "Medela",
+    "rank": 21,
+    "sub": null,
+    "sales": 5976
+   },
+   {
+    "asin": "B0CYQCV5RL",
+    "brand": "Medela",
+    "rank": 33,
+    "sub": null,
+    "sales": 4172
+   },
+   {
+    "asin": "B0D97R57G3",
+    "brand": "Medela",
+    "rank": 80,
+    "sub": null,
+    "sales": 2510
+   },
+   {
+    "asin": "B0DQP7RDPQ",
+    "brand": "KISSBOBO",
+    "rank": 101,
+    "sub": null,
+    "sales": 2244
+   },
+   {
+    "asin": "B0788CC2Y1",
+    "brand": "PHILIPS",
+    "rank": 22,
+    "sub": null,
+    "sales": 2078
+   },
+   {
+    "asin": "B07MJX7BX9",
+    "brand": "Niimo",
+    "rank": 110,
+    "sub": null,
+    "sales": 1613
+   },
+   {
+    "asin": "B078JW1YHW",
+    "brand": "AVENT",
+    "rank": 9864,
+    "sub": null,
+    "sales": 1111
+   },
+   {
+    "asin": "B07S6C4GHS",
+    "brand": "MAM",
+    "rank": 186,
+    "sub": null,
+    "sales": 1102
+   }
+  ]
+ },
+ "KSC|FR": {
+  "status": "ok",
+  "node": 3966351031,
+  "reused_from": null,
+  "hero": "B07ND58735",
+  "cfg_hero": "B085NY3RJQ",
+  "ours": [
+   {
+    "asin": "B085NY3RJQ",
+    "sub": 228,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0BHW9YVV5",
+    "brand": "Lansinoh",
+    "rank": 47,
+    "sub": 2,
+    "sales": 3599
+   },
+   {
+    "asin": "B001A57OQM",
+    "brand": "Medela",
+    "rank": 175,
+    "sub": 3,
+    "sales": 1302
+   },
+   {
+    "asin": "B0GZWM6GCD",
+    "brand": "Maymom",
+    "rank": 65,
+    "sub": 21,
+    "sales": 1300
+   },
+   {
+    "asin": "B01JRLTP9E",
+    "brand": "Lansinoh",
+    "rank": 226,
+    "sub": 4,
+    "sales": 1158
+   },
+   {
+    "asin": "B00FZVP6A8",
+    "brand": "MAM",
+    "rank": 299,
+    "sub": 6,
+    "sales": 1098
+   },
+   {
+    "asin": "B0F9YGJ67D",
+    "brand": "Medela",
+    "rank": 275,
+    "sub": 5,
+    "sales": 1074
+   },
+   {
+    "asin": "B0DT6V2QM2",
+    "brand": "Lansinoh",
+    "rank": 554,
+    "sub": 10,
+    "sales": 660
+   },
+   {
+    "asin": "B0FB495RFY",
+    "brand": "Medela",
+    "rank": 432,
+    "sub": 8,
+    "sales": 653
+   }
+  ]
+ },
+ "KSC|DE": {
+  "status": "ok",
+  "node": 3968946031,
+  "reused_from": null,
+  "hero": "B07ND58735",
+  "cfg_hero": "B085NY3RJQ",
+  "ours": [
+   {
+    "asin": "B085NY3RJQ",
+    "sub": 151,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0BHW9YVV5",
+    "brand": "Lansinoh",
+    "rank": 81,
+    "sub": 1,
+    "sales": 3087
+   },
+   {
+    "asin": "B001UFB52G",
+    "brand": "Medela",
+    "rank": 197,
+    "sub": 4,
+    "sales": 2647
+   },
+   {
+    "asin": "B0CYQGPW92",
+    "brand": "Medela",
+    "rank": 191,
+    "sub": 3,
+    "sales": 2068
+   },
+   {
+    "asin": "B000W7XP26",
+    "brand": "MAM",
+    "rank": 285,
+    "sub": 8,
+    "sales": 1982
+   },
+   {
+    "asin": "B001O1EERE",
+    "brand": "Multi-Mam",
+    "rank": 173,
+    "sub": 2,
+    "sales": 1861
+   },
+   {
+    "asin": "B01JRLTP9E",
+    "brand": "Lansinoh",
+    "rank": 1341,
+    "sub": 11,
+    "sales": 1741
+   },
+   {
+    "asin": "B0CG1XFBLZ",
+    "brand": "Lansinoh",
+    "rank": 482,
+    "sub": 5,
+    "sales": 1392
+   },
+   {
+    "asin": "B00DU6R374",
+    "brand": "Medela",
+    "rank": 203,
+    "sub": 60,
+    "sales": 1060
+   }
+  ]
+ },
+ "KSC|ES": {
+  "status": "na",
+  "reason": "H10 lookup returned 0 rows for ASIN in ES (retried once)",
+  "hero": "B085NY3RJQ"
+ },
+ "KSC|UK": {
+  "status": "na",
+  "reason": "H10 lookup returned 0 rows for ASIN in UK (retried once)",
+  "hero": "B085NY3RJQ"
+ },
+ "KSC|US": {
+  "status": "ok",
+  "node": 166787011,
+  "reused_from": null,
+  "hero": "B07ND58735",
+  "cfg_hero": "B085NY3RJQ",
+  "ours": [
+   {
+    "asin": "B07ND58735",
+    "sub": 11,
+    "sales": 10998
+   },
+   {
+    "asin": "B07Y7JSRNJ",
+    "sub": 11,
+    "sales": 10702
+   },
+   {
+    "asin": "B085NY3RJQ",
+    "sub": 11,
+    "sales": 10702
+   },
+   {
+    "asin": "B085NYR3QG",
+    "sub": 11,
+    "sales": 10702
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B00JVUC012",
+    "brand": "Earth Mama",
+    "rank": 46,
+    "sub": 1,
+    "sales": 44075
+   },
+   {
+    "asin": "B00432ID82",
+    "brand": "Lansinoh",
+    "rank": 67,
+    "sub": 2,
+    "sales": 32341
+   },
+   {
+    "asin": "B077962FZH",
+    "brand": "Medela",
+    "rank": 147,
+    "sub": 3,
+    "sales": 24728
+   },
+   {
+    "asin": "B0B4H75CJZ",
+    "brand": "Silverette",
+    "rank": 451,
+    "sub": 6,
+    "sales": 16213
+   },
+   {
+    "asin": "B0G3RGSJ2K",
+    "brand": "Medela",
+    "rank": 335,
+    "sub": 5,
+    "sales": 14256
+   },
+   {
+    "asin": "B01J61VL9W",
+    "brand": "Lansinoh",
+    "rank": 268,
+    "sub": 4,
+    "sales": 13737
+   },
+   {
+    "asin": "B0007CQ726",
+    "brand": "Motherlove",
+    "rank": 542,
+    "sub": 8,
+    "sales": 12168
+   },
+   {
+    "asin": "B0DK985CJP",
+    "brand": "Maymom",
+    "rank": 348,
+    "sub": 18,
+    "sales": 10728
+   }
+  ]
+ },
+ "KST|IT": {
+  "status": "ok",
+  "node": 1806714031,
+  "reused_from": null,
+  "hero": "B0B5LCT5LT",
+  "cfg_hero": "B0B5LCT5LT",
+  "ours": [
+   {
+    "asin": "B0B5LCT5LT",
+    "sub": 1,
+    "sales": 1757
+   },
+   {
+    "asin": "B0C6KTLNQ9",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0C6KSVQQC",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0F9PS7YTC",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0B5LDVDZQ",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0B5LFPPQ2",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0F9PVQGYY",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0D4YZ6CV9",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0D4YXMHN8",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0C6KQ3V5D",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0B5LD23HJ",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0C6KS2VFY",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0D4YYPVTV",
+    "sub": 1,
+    "sales": 1729
+   },
+   {
+    "asin": "B0D4YW1GP4",
+    "sub": 1,
+    "sales": 1729
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B09VXP482Z",
+    "brand": "lionelo",
+    "rank": 153,
+    "sub": 3,
+    "sales": 1747
+   },
+   {
+    "asin": "B0B6HJK6DX",
+    "brand": "momcozy",
+    "rank": 214,
+    "sub": 37,
+    "sales": 1067
+   },
+   {
+    "asin": "B0F3XW9TC3",
+    "brand": "AYESY",
+    "rank": 744,
+    "sub": 5,
+    "sales": 416
+   },
+   {
+    "asin": "B0CF9G155B",
+    "brand": "Laleni",
+    "rank": 660,
+    "sub": 4,
+    "sales": 379
+   },
+   {
+    "asin": "B0GLHQJQXL",
+    "brand": "HAGOT",
+    "rank": 578,
+    "sub": 2,
+    "sales": 305
+   },
+   {
+    "asin": "B0FTMN7274",
+    "brand": "ZOLLNER",
+    "rank": 1046,
+    "sub": 6,
+    "sales": 245
+   },
+   {
+    "asin": "B0DHV7FPYX",
+    "brand": "Yoofoss",
+    "rank": 1307,
+    "sub": 8,
+    "sales": 198
+   },
+   {
+    "asin": "B0F7R3QFH7",
+    "brand": "Jane",
+    "rank": 1466,
+    "sub": 9,
+    "sales": 178
+   }
+  ]
+ },
+ "KST|FR": {
+  "status": "ok",
+  "node": 3966276031,
+  "reused_from": null,
+  "hero": "B0C6KQ3V5D",
+  "cfg_hero": "B0B5LCT5LT",
+  "ours": [
+   {
+    "asin": "B0B5LCT5LT",
+    "sub": 17,
+    "sales": 97
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0H1WNVCSY",
+    "brand": "momcozy",
+    "rank": 102,
+    "sub": 1,
+    "sales": 1879
+   },
+   {
+    "asin": "B0GGH1XBV7",
+    "brand": "Yukkidds",
+    "rank": 561,
+    "sub": 2,
+    "sales": 481
+   },
+   {
+    "asin": "B09MG11WBN",
+    "brand": "Love To Dream",
+    "rank": 937,
+    "sub": 13,
+    "sales": 453
+   },
+   {
+    "asin": "B0GTNRTXB3",
+    "brand": "Peepeemax",
+    "rank": 738,
+    "sub": 12,
+    "sales": 340
+   },
+   {
+    "asin": "B0F387SYB7",
+    "brand": "LILBESTIE",
+    "rank": 1343,
+    "sub": 7,
+    "sales": 259
+   },
+   {
+    "asin": "B0FNQS4RGF",
+    "brand": "Love To Dream",
+    "rank": 840,
+    "sub": 3,
+    "sales": 252
+   },
+   {
+    "asin": "B0DHVFHMVR",
+    "brand": "Yoofoss",
+    "rank": 1018,
+    "sub": 4,
+    "sales": 230
+   },
+   {
+    "asin": "B0F1K2745P",
+    "brand": "AYBUY",
+    "rank": 1783,
+    "sub": 9,
+    "sales": 166
+   }
+  ]
+ },
+ "KST|DE": {
+  "status": "ok",
+  "node": 3968941031,
+  "reused_from": null,
+  "hero": "B0C6KQ3V5D",
+  "cfg_hero": "B0B5LCT5LT",
+  "ours": [
+   {
+    "asin": "B0B5LCT5LT",
+    "sub": 63,
+    "sales": 34
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0F87Z14L7",
+    "brand": "Yukkidds",
+    "rank": 75,
+    "sub": 1,
+    "sales": 3731
+   },
+   {
+    "asin": "B0GYCY54PD",
+    "brand": "Bearmoss",
+    "rank": 142,
+    "sub": 3,
+    "sales": 2516
+   },
+   {
+    "asin": "B0CF9D4K6L",
+    "brand": "Laleni",
+    "rank": 109,
+    "sub": 2,
+    "sales": 2500
+   },
+   {
+    "asin": "B0B2QQ5K1N",
+    "brand": "GLLQUEN BABY",
+    "rank": 348,
+    "sub": 5,
+    "sales": 2179
+   },
+   {
+    "asin": "B0DP4FLWL7",
+    "brand": "Susurration",
+    "rank": 423,
+    "sub": 8,
+    "sales": 1643
+   },
+   {
+    "asin": "B0CPWGCJ16",
+    "brand": "Soarwg Kids",
+    "rank": 155,
+    "sub": 4,
+    "sales": 1545
+   },
+   {
+    "asin": "B0BX9STZHH",
+    "brand": "ZOLLNER",
+    "rank": 331,
+    "sub": 6,
+    "sales": 1542
+   },
+   {
+    "asin": "B0FF96K9D5",
+    "brand": "Bearmoss",
+    "rank": 752,
+    "sub": 12,
+    "sales": 1364
+   }
+  ]
+ },
+ "KST|ES": {
+  "status": "ok",
+  "node": 1909617031,
+  "reused_from": null,
+  "hero": "B0C6KQ3V5D",
+  "cfg_hero": "B0B5LCT5LT",
+  "ours": [
+   {
+    "asin": "B0D4YXMHN8",
+    "sub": 2,
+    "sales": 543
+   },
+   {
+    "asin": "B0C6KTLNQ9",
+    "sub": 2,
+    "sales": 543
+   },
+   {
+    "asin": "B0C6KS2VFY",
+    "sub": 2,
+    "sales": 543
+   },
+   {
+    "asin": "B0C6KSVQQC",
+    "sub": 1,
+    "sales": 543
+   },
+   {
+    "asin": "B0B5LDVDZQ",
+    "sub": 2,
+    "sales": 543
+   },
+   {
+    "asin": "B0B5LD23HJ",
+    "sub": 1,
+    "sales": 543
+   },
+   {
+    "asin": "B0C6KQ3V5D",
+    "sub": 1,
+    "sales": 543
+   },
+   {
+    "asin": "B0D4YW1GP4",
+    "sub": 1,
+    "sales": 543
+   },
+   {
+    "asin": "B0F9PVQGYY",
+    "sub": 1,
+    "sales": 543
+   },
+   {
+    "asin": "B0B5LD2H1Z",
+    "sub": 2,
+    "sales": 543
+   },
+   {
+    "asin": "B0D4YZ6CV9",
+    "sub": 1,
+    "sales": 543
+   },
+   {
+    "asin": "B0B5LCT5LT",
+    "sub": 1,
+    "sales": 543
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0B3DR89GS",
+    "brand": "Interbaby",
+    "rank": 439,
+    "sub": 2,
+    "sales": 786
+   },
+   {
+    "asin": "B0FD9R85RR",
+    "brand": "Bearmoss",
+    "rank": 837,
+    "sub": 6,
+    "sales": 501
+   },
+   {
+    "asin": "B0F7R3QFH7",
+    "brand": "Jane",
+    "rank": 742,
+    "sub": 5,
+    "sales": 308
+   },
+   {
+    "asin": "B0BXPZHKBS",
+    "brand": "Aolso",
+    "rank": 502,
+    "sub": 4,
+    "sales": 287
+   },
+   {
+    "asin": "B0DXL1WB8T",
+    "brand": "Bearmoss",
+    "rank": 1160,
+    "sub": 10,
+    "sales": 286
+   },
+   {
+    "asin": "B0D9GZ54ZH",
+    "brand": "Bearmoss",
+    "rank": 940,
+    "sub": 8,
+    "sales": 267
+   },
+   {
+    "asin": "B0GM14ZW5N",
+    "brand": "Totsy Baby",
+    "rank": 790,
+    "sub": 36,
+    "sales": 260
+   },
+   {
+    "asin": "B0GBV3W61V",
+    "brand": "Bearmoss",
+    "rank": 451,
+    "sub": 3,
+    "sales": 244
+   }
+  ]
+ },
+ "KST|UK": {
+  "status": "na",
+  "reason": "H10 lookup returned 0 rows for ASIN in UK (retried once)",
+  "hero": "B0B5LCT5LT"
+ },
+ "KST|US": {
+  "status": "ok",
+  "node": 7874767011,
+  "reused_from": null,
+  "hero": "B0F9PR6363",
+  "cfg_hero": "B0B5LCT5LT",
+  "ours": [
+   {
+    "asin": "B0B5LCT5LT",
+    "sub": 165,
+    "sales": 38
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0DR56RWXP",
+    "brand": "MIGIOL",
+    "rank": 54,
+    "sub": 1,
+    "sales": 43032
+   },
+   {
+    "asin": "B0CBC9FLQF",
+    "brand": "Lovely Care",
+    "rank": 274,
+    "sub": 63,
+    "sales": 26470
+   },
+   {
+    "asin": "B0CGVHQBQD",
+    "brand": "Looxii",
+    "rank": 154,
+    "sub": 2,
+    "sales": 25091
+   },
+   {
+    "asin": "B0FCBVWZ8Y",
+    "brand": "HIPHOP PANDA",
+    "rank": 190,
+    "sub": 3,
+    "sales": 16633
+   },
+   {
+    "asin": "B0CC8P2Q62",
+    "brand": "KeaBabies",
+    "rank": 383,
+    "sub": 4,
+    "sales": 13134
+   },
+   {
+    "asin": "B0DHWRJHLT",
+    "brand": "Sunny zzzZZ",
+    "rank": 1102,
+    "sub": 7,
+    "sales": 8553
+   },
+   {
+    "asin": "B0DPJLL71G",
+    "brand": "Burt's Bees Baby",
+    "rank": 1112,
+    "sub": 6,
+    "sales": 8237
+   },
+   {
+    "asin": "B0DHZXR6T6",
+    "brand": "KeaBabies",
+    "rank": 901,
+    "sub": 5,
+    "sales": 7508
+   }
+  ]
+ },
+ "CBA|IT": {
+  "status": "ok",
+  "node": 1806555031,
+  "reused_from": null,
+  "hero": "B0GYFVQDL5",
+  "cfg_hero": "B0GYFNKKJQ",
+  "ours": [
+   {
+    "asin": "B0GYFNKKJQ",
+    "sub": 12,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B09Y9J7GMQ",
+    "brand": "HAMUR HOME",
+    "rank": 1893,
+    "sub": 7,
+    "sales": 165
+   },
+   {
+    "asin": "B0FH1M6ZMD",
+    "brand": "Fortella",
+    "rank": 3048,
+    "sub": 2,
+    "sales": 109
+   },
+   {
+    "asin": "B0GGH7B2MM",
+    "brand": "AOFANGSHIYE",
+    "rank": 2784,
+    "sub": 1,
+    "sales": 61
+   },
+   {
+    "asin": "B0FT3PJWKH",
+    "brand": "lionelo",
+    "rank": 6438,
+    "sub": 5,
+    "sales": 21
+   },
+   {
+    "asin": "B0CGW33GGS",
+    "brand": "mi bollito",
+    "rank": 14441,
+    "sub": 19,
+    "sales": 19
+   },
+   {
+    "asin": "B0GHPRPDQ4",
+    "brand": "Jollein",
+    "rank": 8013,
+    "sub": 6,
+    "sales": 15
+   },
+   {
+    "asin": "B0DB8RNV6D",
+    "brand": "PUTSKA",
+    "rank": 7876,
+    "sub": 8,
+    "sales": 13
+   },
+   {
+    "asin": "B0CDXXG1XM",
+    "brand": "MIMUSELINA",
+    "rank": 16876,
+    "sub": 16,
+    "sales": 13
+   }
+  ]
+ },
+ "CBA|FR": {
+  "status": "ok",
+  "node": 9644682031,
+  "reused_from": null,
+  "hero": "B0GYFVQDL5",
+  "cfg_hero": "B0GYFNKKJQ",
+  "ours": [
+   {
+    "asin": "B0GYFNKKJQ",
+    "sub": 79,
+    "sales": 3
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FQTHXNGR",
+    "brand": "Blissful Diary",
+    "rank": 141,
+    "sub": 1,
+    "sales": 1084
+   },
+   {
+    "asin": "B0DXKL4WRZ",
+    "brand": "HAGOT",
+    "rank": 1169,
+    "sub": 2,
+    "sales": 225
+   },
+   {
+    "asin": "B0FH1M6ZMD",
+    "brand": "Fortella",
+    "rank": 1030,
+    "sub": 3,
+    "sales": 214
+   },
+   {
+    "asin": "B0F13P3Y2L",
+    "brand": "Maliton",
+    "rank": 1770,
+    "sub": 5,
+    "sales": 135
+   },
+   {
+    "asin": "B0GR5VNLL7",
+    "brand": "Monemey",
+    "rank": 1543,
+    "sub": 4,
+    "sales": 123
+   },
+   {
+    "asin": "B0FNMS933C",
+    "brand": "Tarange",
+    "rank": 2694,
+    "sub": 9,
+    "sales": 115
+   },
+   {
+    "asin": "B0BG4XSYMT",
+    "brand": "Maliton",
+    "rank": 3424,
+    "sub": 12,
+    "sales": 77
+   },
+   {
+    "asin": "B0H4QY69XN",
+    "brand": "HuhWafee",
+    "rank": 2785,
+    "sub": 11,
+    "sales": 74
+   }
+  ]
+ },
+ "CBA|DE": {
+  "status": "ok",
+  "node": 3969032031,
+  "reused_from": null,
+  "hero": "B0GYFVQDL5",
+  "cfg_hero": "B0GYFNKKJQ",
+  "ours": [
+   {
+    "asin": "B0GYFNKKJQ",
+    "sub": 181,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0D12RNX6F",
+    "brand": "Ofiray-home",
+    "rank": 342,
+    "sub": 1,
+    "sales": 1468
+   },
+   {
+    "asin": "B09YB9JC81",
+    "brand": "HAMUR HOME",
+    "rank": 966,
+    "sub": 3,
+    "sales": 542
+   },
+   {
+    "asin": "B09TG8QP2Z",
+    "brand": "Honeyera",
+    "rank": 956,
+    "sub": 2,
+    "sales": 429
+   },
+   {
+    "asin": "B0BFQS8ZVN",
+    "brand": "JJ PRIME",
+    "rank": 2836,
+    "sub": 7,
+    "sales": 347
+   },
+   {
+    "asin": "B0BRTHVLD1",
+    "brand": "Row & Line",
+    "rank": 4788,
+    "sub": 15,
+    "sales": 306
+   },
+   {
+    "asin": "B0F43JDVYJ",
+    "brand": "Eyeleaf",
+    "rank": 108359,
+    "sub": 869,
+    "sales": 268
+   },
+   {
+    "asin": "B0BZZ3WTBM",
+    "brand": "VISATOR",
+    "rank": 2578,
+    "sub": 6,
+    "sales": 241
+   },
+   {
+    "asin": "B0G6CYBJCK",
+    "brand": "Bavooty",
+    "rank": 3250,
+    "sub": 8,
+    "sales": 207
+   }
+  ]
+ },
+ "CBA|ES": {
+  "status": "ok",
+  "node": 1909572031,
+  "reused_from": null,
+  "hero": "B0GYFVQDL5",
+  "cfg_hero": "B0GYFNKKJQ",
+  "ours": [
+   {
+    "asin": "B0GYFNKKJQ",
+    "sub": 99,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B08CMRBJ4M",
+    "brand": "INough",
+    "rank": 2093,
+    "sub": 6,
+    "sales": 115
+   },
+   {
+    "asin": "B0CRHX13TZ",
+    "brand": "HMF",
+    "rank": 11627,
+    "sub": 59,
+    "sales": 102
+   },
+   {
+    "asin": "B0H3N6JQBX",
+    "brand": "Alyvisun",
+    "rank": 3328,
+    "sub": 5,
+    "sales": 74
+   },
+   {
+    "asin": "B0BLRRXCLF",
+    "brand": "GOCAN",
+    "rank": 14065,
+    "sub": 80,
+    "sales": 61
+   },
+   {
+    "asin": "B0GWVFDS1D",
+    "brand": "YFNHOME",
+    "rank": 3057,
+    "sub": 2,
+    "sales": 56
+   },
+   {
+    "asin": "B0G6DQLMDV",
+    "brand": "Alyvisun",
+    "rank": 1836,
+    "sub": 10,
+    "sales": 42
+   },
+   {
+    "asin": "B0FRMFDTG8",
+    "brand": "DIYCUT",
+    "rank": 4151,
+    "sub": 15,
+    "sales": 37
+   },
+   {
+    "asin": "B0C7QK414T",
+    "brand": "BIECO",
+    "rank": 4457,
+    "sub": 13,
+    "sales": 33
+   }
+  ]
+ },
+ "CBA|UK": {
+  "status": "na",
+  "reason": "hero ASIN not found in Helium10 for this marketplace (empty result, no subcategory node)",
+  "hero": "B0GYFNKKJQ"
+ },
+ "CBA|US": {
+  "status": "ok",
+  "node": 166769011,
+  "reused_from": null,
+  "hero": "B0GYFVQDL5",
+  "cfg_hero": "B0GYFNKKJQ",
+  "ours": [
+   {
+    "asin": "B0GYFNKKJQ",
+    "sub": 120,
+    "sales": 236
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0D1YF9NMG",
+    "brand": "Parker Baby Co.",
+    "rank": 245,
+    "sub": 1,
+    "sales": 18364
+   },
+   {
+    "asin": "B0F621CRCG",
+    "brand": "PeraBella",
+    "rank": 313,
+    "sub": 2,
+    "sales": 16635
+   },
+   {
+    "asin": "B0D9W18YZH",
+    "brand": "Blissful Diary",
+    "rank": 412,
+    "sub": 3,
+    "sales": 14039
+   },
+   {
+    "asin": "B0FP4W54GW",
+    "brand": "HIPHOP PANDA",
+    "rank": 1882,
+    "sub": 9,
+    "sales": 13047
+   },
+   {
+    "asin": "B0BJVMQYW8",
+    "brand": "Volnamal",
+    "rank": 651,
+    "sub": 4,
+    "sales": 8806
+   },
+   {
+    "asin": "B0CG6HSR79",
+    "brand": "Mr. Pen",
+    "rank": 938,
+    "sub": 5,
+    "sales": 6314
+   },
+   {
+    "asin": "B0DJ75BLR5",
+    "brand": "Maliton",
+    "rank": 1622,
+    "sub": 6,
+    "sales": 4988
+   },
+   {
+    "asin": "B0F3X6XKRN",
+    "brand": "Blissful Diary",
+    "rank": 1832,
+    "sub": 9,
+    "sales": 4441
+   }
+  ]
+ },
+ "KBB|IT": {
+  "status": "ok",
+  "node": 1806579031,
+  "reused_from": null,
+  "hero": "B0BFN7S56N",
+  "cfg_hero": "B0BFN5ZX4B",
+  "ours": [
+   {
+    "asin": "B0BFN5ZX4B",
+    "sub": 55,
+    "sales": null
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0G5Y3C5XF",
+    "brand": "ACWOO",
+    "rank": 3490,
+    "sub": 4,
+    "sales": 340
+   },
+   {
+    "asin": "B0GYPHS8SL",
+    "brand": "JOYNCLEON",
+    "rank": 6270,
+    "sub": 3,
+    "sales": 329
+   },
+   {
+    "asin": "B0GWQLK5F7",
+    "brand": "JOYNCLEON",
+    "rank": 5138,
+    "sub": 2,
+    "sales": 321
+   },
+   {
+    "asin": "B07Z4W4KZB",
+    "brand": "KeaBabies",
+    "rank": 2903,
+    "sub": 1,
+    "sales": 231
+   },
+   {
+    "asin": "B0F2TBCPNM",
+    "brand": "AOGOE",
+    "rank": 5321,
+    "sub": 82,
+    "sales": 208
+   },
+   {
+    "asin": "B0G9567295",
+    "brand": "Baby Uma",
+    "rank": 10790,
+    "sub": 5,
+    "sales": 177
+   },
+   {
+    "asin": "B0FXX5TBMK",
+    "brand": "BDEPSTR",
+    "rank": 17396,
+    "sub": 10,
+    "sales": 111
+   },
+   {
+    "asin": "B0DPYSK6NW",
+    "brand": "APKOL",
+    "rank": 3803,
+    "sub": 2,
+    "sales": 109
+   }
+  ]
+ },
+ "KBB|FR": {
+  "status": "ok",
+  "node": 214957031,
+  "reused_from": null,
+  "hero": "B0BFN66S42",
+  "cfg_hero": "B0BFN5ZX4B",
+  "ours": [
+   {
+    "asin": "B0BFN5ZX4B",
+    "sub": 73,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0CWPH4T2B",
+    "brand": "PHYSIOMAT",
+    "rank": 1057,
+    "sub": 1,
+    "sales": 744
+   },
+   {
+    "asin": "B0CRNJQGYJ",
+    "brand": "MAMODY",
+    "rank": 5432,
+    "sub": 6,
+    "sales": 279
+   },
+   {
+    "asin": "B0F6VHH32L",
+    "brand": "ACWOO",
+    "rank": 3659,
+    "sub": 2,
+    "sales": 267
+   },
+   {
+    "asin": "B0GWJ1DPPP",
+    "brand": "Kaelaxroy",
+    "rank": 6274,
+    "sub": 7,
+    "sales": 260
+   },
+   {
+    "asin": "B008JVR67C",
+    "brand": "Chicco",
+    "rank": 5190,
+    "sub": 4,
+    "sales": 231
+   },
+   {
+    "asin": "B0G2LH16LK",
+    "brand": "JOYNCLEON",
+    "rank": 4820,
+    "sub": 3,
+    "sales": 221
+   },
+   {
+    "asin": "B0F4MRP1BV",
+    "brand": "momcozy",
+    "rank": 6344,
+    "sub": 8,
+    "sales": 157
+   },
+   {
+    "asin": "B01EVH6WQS",
+    "brand": "Chongerfei",
+    "rank": 10388,
+    "sub": 12,
+    "sales": 152
+   }
+  ]
+ },
+ "KBB|DE": {
+  "status": "ok",
+  "node": 1981791031,
+  "reused_from": null,
+  "hero": "B0BFN7FT4Z",
+  "cfg_hero": "B0BFN5ZX4B",
+  "ours": [
+   {
+    "asin": "B0BFN5ZX4B",
+    "sub": 131,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0DS2HNVZ9",
+    "brand": "Hoppediz",
+    "rank": 5873,
+    "sub": 20,
+    "sales": 1866
+   },
+   {
+    "asin": "B07Z4W4KZB",
+    "brand": "KeaBabies",
+    "rank": 1677,
+    "sub": 1,
+    "sales": 1746
+   },
+   {
+    "asin": "B0831Q6MVF",
+    "brand": "KeaBabies",
+    "rank": 8437,
+    "sub": 3,
+    "sales": 977
+   },
+   {
+    "asin": "B0CRR41V72",
+    "brand": "MAMODY",
+    "rank": 3530,
+    "sub": 2,
+    "sales": 809
+   },
+   {
+    "asin": "B09PZ5PSXW",
+    "brand": "ChongErfei",
+    "rank": 22515,
+    "sub": 10,
+    "sales": 576
+   },
+   {
+    "asin": "B07K7HXNJH",
+    "brand": "mama band",
+    "rank": 10826,
+    "sub": 5,
+    "sales": 566
+   },
+   {
+    "asin": "B0GQL2MWDR",
+    "brand": "Momcozy",
+    "rank": 8979,
+    "sub": 4,
+    "sales": 477
+   },
+   {
+    "asin": "B0D3T328P3",
+    "brand": "ACWOO",
+    "rank": 20510,
+    "sub": 9,
+    "sales": 415
+   }
+  ]
+ },
+ "KBB|ES": {
+  "status": "ok",
+  "node": 1909483031,
+  "reused_from": null,
+  "hero": "B0BFN7S56N",
+  "cfg_hero": "B0BFN5ZX4B",
+  "ours": [
+   {
+    "asin": "B0BFN5ZX4B",
+    "sub": 109,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0D3LH455P",
+    "brand": "ACWOO",
+    "rank": 2030,
+    "sub": 2,
+    "sales": 449
+   },
+   {
+    "asin": "B0D6G1MVXD",
+    "brand": "KeaBabies",
+    "rank": 1401,
+    "sub": 1,
+    "sales": 394
+   },
+   {
+    "asin": "B0GTYQN347",
+    "brand": "AUYAO",
+    "rank": 6621,
+    "sub": 4,
+    "sales": 166
+   },
+   {
+    "asin": "B0F4MRTC4F",
+    "brand": "momcozy",
+    "rank": 17832,
+    "sub": 26,
+    "sales": 163
+   },
+   {
+    "asin": "B01GO2MMK8",
+    "brand": "NEOtech Care",
+    "rank": 4616,
+    "sub": 3,
+    "sales": 162
+   },
+   {
+    "asin": "B0H6ZY912S",
+    "brand": "Kaelaxroy",
+    "rank": 8114,
+    "sub": 6,
+    "sales": 123
+   },
+   {
+    "asin": "B0H9YZ6RB4",
+    "brand": "OSDUE",
+    "rank": 22594,
+    "sub": 21,
+    "sales": 121
+   },
+   {
+    "asin": "B0F2TBCPNM",
+    "brand": "AOGOE",
+    "rank": 9406,
+    "sub": 8,
+    "sales": 113
+   }
+  ]
+ },
+ "KBB|UK": {
+  "status": "na",
+  "reason": "hero ASIN not found in Helium10 for this marketplace (empty result, no subcategory node)",
+  "hero": "B0BFN5ZX4B"
+ },
+ "KBB|US": {
+  "status": "ok",
+  "node": 1285232011,
+  "reused_from": null,
+  "hero": "B0BFN7FT4Z",
+  "cfg_hero": "B0BFN5ZX4B",
+  "ours": [
+   {
+    "asin": "B0BFN5ZX4B",
+    "sub": 81,
+    "sales": 70
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B09QRHY95G",
+    "brand": "Frida Mom",
+    "rank": 978,
+    "sub": 1,
+    "sales": 23920
+   },
+   {
+    "asin": "B0D8QPSK61",
+    "brand": "Momcozy",
+    "rank": 2785,
+    "sub": 3,
+    "sales": 12738
+   },
+   {
+    "asin": "B09PZ7J31F",
+    "brand": "ChongErfei",
+    "rank": 2900,
+    "sub": 4,
+    "sales": 11678
+   },
+   {
+    "asin": "B082128ZKB",
+    "brand": "Gepoetry",
+    "rank": 4363,
+    "sub": 5,
+    "sales": 9197
+   },
+   {
+    "asin": "B09GLN9KCD",
+    "brand": "Peauty",
+    "rank": 6047,
+    "sub": 97,
+    "sales": 8518
+   },
+   {
+    "asin": "B0D6G77291",
+    "brand": "KeaBabies",
+    "rank": 6467,
+    "sub": 6,
+    "sales": 8104
+   },
+   {
+    "asin": "B073PBDWKN",
+    "brand": "AZMED",
+    "rank": 1822,
+    "sub": 2,
+    "sales": 7958
+   },
+   {
+    "asin": "B0D6FMR9Y6",
+    "brand": "KeaBabies",
+    "rank": 7018,
+    "sub": 7,
+    "sales": 7696
+   }
+  ]
+ },
+ "CBR|IT": {
+  "status": "ok",
+  "node": 1806414031,
+  "reused_from": null,
+  "hero": "B0FCS94QLM",
+  "cfg_hero": "B0FCS94QLM",
+  "ours": [
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 1,
+    "sales": 1580
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 2,
+    "sales": 637
+   },
+   {
+    "asin": "B0D4ZNFKYQ",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZMPS1Z",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0FCS94QLM",
+    "sub": 40,
+    "sales": 5
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0D9R594WP",
+    "brand": "Infantino",
+    "rank": 85,
+    "sub": 4,
+    "sales": 1469
+   },
+   {
+    "asin": "B0FRMM1B5D",
+    "brand": "momcozy",
+    "rank": 403,
+    "sub": 2,
+    "sales": 651
+   },
+   {
+    "asin": "B0DPW1D5W5",
+    "brand": "Sleepy Wrap",
+    "rank": 691,
+    "sub": 5,
+    "sales": 384
+   },
+   {
+    "asin": "B0FSRG158C",
+    "brand": "AOOWU",
+    "rank": 787,
+    "sub": 6,
+    "sales": 270
+   },
+   {
+    "asin": "B0F21PWPY5",
+    "brand": "Jane",
+    "rank": 1743,
+    "sub": 14,
+    "sales": 207
+   },
+   {
+    "asin": "B0DHXN4PT2",
+    "brand": "Laleni",
+    "rank": 1080,
+    "sub": 7,
+    "sales": 205
+   },
+   {
+    "asin": "B0C2Z2XZQ1",
+    "brand": "Ergobaby",
+    "rank": 1180,
+    "sub": 8,
+    "sales": 187
+   },
+   {
+    "asin": "B0BWSML9XT",
+    "brand": "Boba",
+    "rank": 1597,
+    "sub": 10,
+    "sales": 147
+   }
+  ]
+ },
+ "CBR|FR": {
+  "status": "ok",
+  "node": 3966193031,
+  "reused_from": null,
+  "hero": "B0FCS9PFYQ",
+  "cfg_hero": "B0FCS94QLM",
+  "ours": [
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 2,
+    "sales": 1125
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 2,
+    "sales": 1116
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0FCS94QLM",
+    "sub": 57,
+    "sales": 4
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH1372V",
+    "brand": "momcozy",
+    "rank": 76,
+    "sub": 1,
+    "sales": 2286
+   },
+   {
+    "asin": "B0DPNCVDK9",
+    "brand": "Sleepy Wrap",
+    "rank": 601,
+    "sub": 3,
+    "sales": 677
+   },
+   {
+    "asin": "B0GX8YB29Y",
+    "brand": "JOYNCLEON",
+    "rank": 1311,
+    "sub": 104,
+    "sales": 203
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 1934,
+    "sub": 52,
+    "sales": 197
+   },
+   {
+    "asin": "B0FBQZ4DPJ",
+    "brand": "Mumgaroo",
+    "rank": 2122,
+    "sub": 8,
+    "sales": 161
+   },
+   {
+    "asin": "B0FDVVDNRP",
+    "brand": "IBOPUXIU",
+    "rank": 2004,
+    "sub": 11,
+    "sales": 161
+   },
+   {
+    "asin": "B0F6N85NBX",
+    "brand": "Bebamour",
+    "rank": 2355,
+    "sub": 59,
+    "sales": 130
+   },
+   {
+    "asin": "B09YZ18RQD",
+    "brand": "Ergobaby",
+    "rank": 2110,
+    "sub": 7,
+    "sales": 122
+   }
+  ]
+ },
+ "CBR|DE": {
+  "status": "ok",
+  "node": 3968908031,
+  "reused_from": null,
+  "hero": "B0FCS9PFYQ",
+  "cfg_hero": "B0FCS94QLM",
+  "ours": [
+   {
+    "asin": "B07G85W2CN",
+    "sub": 2,
+    "sales": 1466
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 2,
+    "sales": 1466
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 7,
+    "sales": 368
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0FCS94QLM",
+    "sub": 115,
+    "sales": 3
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQGYB7FK",
+    "brand": "Momcozy",
+    "rank": 283,
+    "sub": 1,
+    "sales": 1683
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 308,
+    "sub": 21,
+    "sales": 1384
+   },
+   {
+    "asin": "B0DHXP7M95",
+    "brand": "Laleni",
+    "rank": 329,
+    "sub": 3,
+    "sales": 1266
+   },
+   {
+    "asin": "B0CWMJD2ZM",
+    "brand": "Boba",
+    "rank": 1079,
+    "sub": 5,
+    "sales": 606
+   },
+   {
+    "asin": "B0HG95HTFX",
+    "brand": "bebear",
+    "rank": 812,
+    "sub": 20,
+    "sales": 515
+   },
+   {
+    "asin": "B091F86N38",
+    "brand": "KeaBabies",
+    "rank": 1026,
+    "sub": 4,
+    "sales": 481
+   },
+   {
+    "asin": "B0FMYGZ75J",
+    "brand": "Ergobaby",
+    "rank": 1217,
+    "sub": 10,
+    "sales": 421
+   },
+   {
+    "asin": "B0CDPGG96N",
+    "brand": "bebear",
+    "rank": 1232,
+    "sub": 16,
+    "sales": 322
+   }
+  ]
+ },
+ "CBR|ES": {
+  "status": "ok",
+  "node": 1909314031,
+  "reused_from": null,
+  "hero": "B0FCS9PFYQ",
+  "cfg_hero": "B0FCS94QLM",
+  "ours": [
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 1,
+    "sales": 968
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 1,
+    "sales": 968
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 5,
+    "sales": 429
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZNFKYQ",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0FCS94QLM",
+    "sub": 101,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH2GJ4P",
+    "brand": "momcozy",
+    "rank": 199,
+    "sub": 2,
+    "sales": 861
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 287,
+    "sub": 3,
+    "sales": 820
+   },
+   {
+    "asin": "B0FDKW6HL1",
+    "brand": "AOOWU",
+    "rank": 549,
+    "sub": 4,
+    "sales": 409
+   },
+   {
+    "asin": "B0F53PF26N",
+    "brand": "Quimets",
+    "rank": 514,
+    "sub": 25,
+    "sales": 388
+   },
+   {
+    "asin": "B00OJVNSFA",
+    "brand": "CuddleBug",
+    "rank": 1038,
+    "sub": 9,
+    "sales": 290
+   },
+   {
+    "asin": "B0DPW2LGSW",
+    "brand": "Sleepy Wrap",
+    "rank": 902,
+    "sub": 6,
+    "sales": 280
+   },
+   {
+    "asin": "B0CCF7QX7R",
+    "brand": "Boba",
+    "rank": 946,
+    "sub": 7,
+    "sales": 228
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 751,
+    "sub": 59,
+    "sales": 194
+   }
+  ]
+ },
+ "CBR|UK": {
+  "status": "na",
+  "reason": "hero ASIN not found in Helium10 for this marketplace (empty result, no subcategory node)",
+  "hero": "B0FCS94QLM"
+ },
+ "CBR|US": {
+  "status": "na",
+  "reason": "hero ASIN not found in Helium10 for this marketplace (empty result, no subcategory node)",
+  "hero": "B0FCS94QLM"
+ },
+ "KPH|IT": {
+  "status": "ok",
+  "node": 1806614031,
+  "reused_from": null,
+  "hero": "B07287LFMS",
+  "cfg_hero": "B071493954",
+  "ours": [
+   {
+    "asin": "B07287LFMS",
+    "sub": 4,
+    "sales": 492
+   },
+   {
+    "asin": "B071493954",
+    "sub": 4,
+    "sales": 484
+   },
+   {
+    "asin": "B071VQG35B",
+    "sub": 4,
+    "sales": 484
+   },
+   {
+    "asin": "B0F9PB5W82",
+    "sub": 4,
+    "sales": 484
+   },
+   {
+    "asin": "B0F9P56QBR",
+    "sub": 4,
+    "sales": 484
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FYYF4MMF",
+    "brand": "The Double Twenty",
+    "rank": 76,
+    "sub": 1,
+    "sales": 3287
+   },
+   {
+    "asin": "B09WP4BPBH",
+    "brand": "Dilamababy",
+    "rank": 385,
+    "sub": 2,
+    "sales": 1383
+   },
+   {
+    "asin": "B00I3E1D2E",
+    "brand": "ANDY & HELEN",
+    "rank": 380,
+    "sub": 12,
+    "sales": 971
+   },
+   {
+    "asin": "B07XBZN2N6",
+    "brand": "baby idea",
+    "rank": 582,
+    "sub": 3,
+    "sales": 467
+   },
+   {
+    "asin": "B0H3QLLCQK",
+    "brand": "Dream Materassi",
+    "rank": 1768,
+    "sub": 14,
+    "sales": 331
+   },
+   {
+    "asin": "B0DCW71K61",
+    "brand": "Totsy Baby",
+    "rank": 695,
+    "sub": 6,
+    "sales": 329
+   },
+   {
+    "asin": "B0HKJG6WRG",
+    "brand": "Domus Dream",
+    "rank": 2220,
+    "sub": 17,
+    "sales": 261
+   },
+   {
+    "asin": "B0C9K2886Y",
+    "brand": "ER RELAX",
+    "rank": 2600,
+    "sub": 24,
+    "sales": 248
+   }
+  ]
+ },
+ "KPH|FR": {
+  "status": "ok",
+  "node": 3966244031,
+  "reused_from": null,
+  "hero": "B07287LFMS",
+  "cfg_hero": "B071493954",
+  "ours": [
+   {
+    "asin": "B071493954",
+    "sub": 5,
+    "sales": null
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0DMW6HW9K",
+    "brand": "Totsy Baby",
+    "rank": 438,
+    "sub": 14,
+    "sales": 611
+   },
+   {
+    "asin": "B0F194MLC1",
+    "brand": "Totsy Baby",
+    "rank": 693,
+    "sub": 7,
+    "sales": 351
+   },
+   {
+    "asin": "B0H4Z4YX1K",
+    "brand": "molis & co",
+    "rank": 806,
+    "sub": 5,
+    "sales": 217
+   },
+   {
+    "asin": "B0BGSVXFY3",
+    "brand": "Totsy Baby",
+    "rank": 915,
+    "sub": 1,
+    "sales": 209
+   },
+   {
+    "asin": "B0CTK9TS1C",
+    "brand": "Tinéo",
+    "rank": 2176,
+    "sub": 2,
+    "sales": 123
+   },
+   {
+    "asin": "B091GGHHSH",
+    "brand": "doomoo",
+    "rank": 2239,
+    "sub": 4,
+    "sales": 103
+   },
+   {
+    "asin": "B0GS42JZJ1",
+    "brand": "PIMKO",
+    "rank": 2346,
+    "sub": 33,
+    "sales": 93
+   },
+   {
+    "asin": "B0DV5DVHBC",
+    "brand": "Totsy Baby",
+    "rank": 2811,
+    "sub": 6,
+    "sales": 74
+   }
+  ]
+ },
+ "KPH|DE": {
+  "status": "ok",
+  "node": 3969000031,
+  "reused_from": null,
+  "hero": "B07287LFMS",
+  "cfg_hero": "B071493954",
+  "ours": [
+   {
+    "asin": "B07287LFMS",
+    "sub": 1,
+    "sales": 1513
+   },
+   {
+    "asin": "B071493954",
+    "sub": 1,
+    "sales": 1513
+   },
+   {
+    "asin": "B071VQG35B",
+    "sub": 1,
+    "sales": 1513
+   },
+   {
+    "asin": "B0F9P5XF7Z",
+    "sub": 4,
+    "sales": 232
+   },
+   {
+    "asin": "B0F9P8W4WH",
+    "sub": 4,
+    "sales": 232
+   },
+   {
+    "asin": "B071G58PZR",
+    "sub": 4,
+    "sales": 224
+   },
+   {
+    "asin": "B071JR7FGJ",
+    "sub": 4,
+    "sales": 224
+   },
+   {
+    "asin": "B071JR532L",
+    "sub": 4,
+    "sales": 224
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FLXK4FL7",
+    "brand": "Totsy Baby",
+    "rank": 269,
+    "sub": 3,
+    "sales": 1034
+   },
+   {
+    "asin": "B0C5DP8NH4",
+    "brand": "ULLENBOOM",
+    "rank": 2195,
+    "sub": 10,
+    "sales": 177
+   },
+   {
+    "asin": "B0H2LLH6QD",
+    "brand": "babybay",
+    "rank": 2831,
+    "sub": 7,
+    "sales": 117
+   },
+   {
+    "asin": "B0H2LMQC21",
+    "brand": "babybay",
+    "rank": 5253,
+    "sub": 9,
+    "sales": 102
+   },
+   {
+    "asin": "B0GDX33C3H",
+    "brand": "HDUYFYD",
+    "rank": 6883,
+    "sub": 11,
+    "sales": 88
+   },
+   {
+    "asin": "B00KRDKWM6",
+    "brand": "Träumeland",
+    "rank": 7075,
+    "sub": 12,
+    "sales": 79
+   },
+   {
+    "asin": "B07KTBW2PF",
+    "brand": "Medibino",
+    "rank": 7490,
+    "sub": 20,
+    "sales": 76
+   },
+   {
+    "asin": "B07NBQBJ5T",
+    "brand": "sleepling",
+    "rank": 6705,
+    "sub": 8,
+    "sales": 51
+   }
+  ]
+ },
+ "KPH|ES": {
+  "status": "ok",
+  "node": 1909518031,
+  "reused_from": null,
+  "hero": "B07287LFMS",
+  "cfg_hero": "B071493954",
+  "ours": [
+   {
+    "asin": "B07287LFMS",
+    "sub": 1,
+    "sales": 994
+   },
+   {
+    "asin": "B071VQG35B",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071G58PZR",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B07FC1DTZ3",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071JR532L",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B07FC27HPT",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B07FC27HGD",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071JR7FGJ",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071493954",
+    "sub": 1,
+    "sales": 944
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0HLFVH1T3",
+    "brand": "MATTREX BIENVENIDO A MATTREX EL ORIGEN DE UN BUEN COLCHON",
+    "rank": 286,
+    "sub": 30,
+    "sales": 1046
+   },
+   {
+    "asin": "B0G4D4KCSY",
+    "brand": "Totsy Baby",
+    "rank": 250,
+    "sub": 263,
+    "sales": 497
+   },
+   {
+    "asin": "B0DMWYCTT7",
+    "brand": "Totsy Baby",
+    "rank": 834,
+    "sub": 4,
+    "sales": 256
+   },
+   {
+    "asin": "B0D29J8G34",
+    "brand": "variouss",
+    "rank": 1121,
+    "sub": 5,
+    "sales": 229
+   },
+   {
+    "asin": "B0HLG1969B",
+    "brand": "Dear Friend",
+    "rank": 4401,
+    "sub": 14,
+    "sales": 202
+   },
+   {
+    "asin": "B0C53QBK4H",
+    "brand": "MIMOS",
+    "rank": 1184,
+    "sub": 9,
+    "sales": 174
+   },
+   {
+    "asin": "B0FM3N6LCL",
+    "brand": "Dalala",
+    "rank": 1261,
+    "sub": 2,
+    "sales": 136
+   },
+   {
+    "asin": "B0D83G46FR",
+    "brand": "Jiahuade",
+    "rank": 7248,
+    "sub": 24,
+    "sales": 102
+   }
+  ]
+ },
+ "KPH|UK": {
+  "status": "na",
+  "reason": "hero ASIN not found in Helium10 for this marketplace (empty result, no subcategory node)",
+  "hero": "B071493954"
+ },
+ "KPHB|IT": {
+  "status": "ok",
+  "node": 1806614031,
+  "reused_from": null,
+  "hero": "B07FC1DTZ3",
+  "cfg_hero": "B07FC1DTZ3",
+  "ours": [
+   {
+    "asin": "B07FC1DTZ3",
+    "sub": 29,
+    "sales": 27
+   },
+   {
+    "asin": "B07287LFMS",
+    "sub": 4,
+    "sales": 492
+   },
+   {
+    "asin": "B071493954",
+    "sub": 4,
+    "sales": 484
+   },
+   {
+    "asin": "B071VQG35B",
+    "sub": 4,
+    "sales": 484
+   },
+   {
+    "asin": "B0F9PB5W82",
+    "sub": 4,
+    "sales": 484
+   },
+   {
+    "asin": "B0F9P56QBR",
+    "sub": 4,
+    "sales": 484
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FYYF4MMF",
+    "brand": "The Double Twenty",
+    "rank": 76,
+    "sub": 1,
+    "sales": 3287
+   },
+   {
+    "asin": "B09WP4BPBH",
+    "brand": "Dilamababy",
+    "rank": 385,
+    "sub": 2,
+    "sales": 1383
+   },
+   {
+    "asin": "B00I3E1D2E",
+    "brand": "ANDY & HELEN",
+    "rank": 380,
+    "sub": 12,
+    "sales": 971
+   },
+   {
+    "asin": "B07XBZN2N6",
+    "brand": "baby idea",
+    "rank": 582,
+    "sub": 3,
+    "sales": 467
+   },
+   {
+    "asin": "B0H3QLLCQK",
+    "brand": "Dream Materassi",
+    "rank": 1768,
+    "sub": 14,
+    "sales": 331
+   },
+   {
+    "asin": "B0DCW71K61",
+    "brand": "Totsy Baby",
+    "rank": 695,
+    "sub": 6,
+    "sales": 329
+   },
+   {
+    "asin": "B0HKJG6WRG",
+    "brand": "Domus Dream",
+    "rank": 2220,
+    "sub": 17,
+    "sales": 261
+   },
+   {
+    "asin": "B0C9K2886Y",
+    "brand": "ER RELAX",
+    "rank": 2600,
+    "sub": 24,
+    "sales": 248
+   }
+  ]
+ },
+ "KPHB|FR": {
+  "status": "ok",
+  "node": 9644742031,
+  "reused_from": null,
+  "hero": "B07FC1DTZ3",
+  "cfg_hero": "B07FC1DTZ3",
+  "ours": [
+   {
+    "asin": "B0F9P56QBR",
+    "sub": 16,
+    "sales": 210
+   },
+   {
+    "asin": "B0F9PB5W82",
+    "sub": 16,
+    "sales": 210
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B09WP4BPBH",
+    "brand": "Dilamababy",
+    "rank": 200,
+    "sub": 1,
+    "sales": 1374
+   },
+   {
+    "asin": "B0GY7RC54D",
+    "brand": "SIKAINI",
+    "rank": 8671,
+    "sub": 64,
+    "sales": 560
+   },
+   {
+    "asin": "B0FSF2ZMW4",
+    "brand": "Baby Lama",
+    "rank": 833,
+    "sub": 20,
+    "sales": 375
+   },
+   {
+    "asin": "B001U62VXW",
+    "brand": "P'TIT LIT",
+    "rank": 1156,
+    "sub": 5,
+    "sales": 274
+   },
+   {
+    "asin": "B0HFHCQ75F",
+    "brand": "Generic",
+    "rank": 2822,
+    "sub": 12,
+    "sales": 259
+   },
+   {
+    "asin": "B0843TCRYP",
+    "brand": "Utopia Bedding",
+    "rank": 847,
+    "sub": 3,
+    "sales": 252
+   },
+   {
+    "asin": "B0HGY3JHH9",
+    "brand": "JKKEOXYLIC",
+    "rank": 1598,
+    "sub": 7,
+    "sales": 229
+   },
+   {
+    "asin": "B09XXV5LDV",
+    "brand": "4BABIES",
+    "rank": 1103,
+    "sub": 59,
+    "sales": 212
+   }
+  ]
+ },
+ "KPHB|DE": {
+  "status": "ok",
+  "node": 3969000031,
+  "reused_from": null,
+  "hero": "B07FC27HPT",
+  "cfg_hero": "B07FC1DTZ3",
+  "ours": [
+   {
+    "asin": "B07287LFMS",
+    "sub": 1,
+    "sales": 1513
+   },
+   {
+    "asin": "B071493954",
+    "sub": 1,
+    "sales": 1513
+   },
+   {
+    "asin": "B071VQG35B",
+    "sub": 1,
+    "sales": 1513
+   },
+   {
+    "asin": "B0F9P5XF7Z",
+    "sub": 4,
+    "sales": 232
+   },
+   {
+    "asin": "B0F9P8W4WH",
+    "sub": 4,
+    "sales": 232
+   },
+   {
+    "asin": "B071G58PZR",
+    "sub": 4,
+    "sales": 224
+   },
+   {
+    "asin": "B071JR7FGJ",
+    "sub": 4,
+    "sales": 224
+   },
+   {
+    "asin": "B071JR532L",
+    "sub": 4,
+    "sales": 224
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FLXK4FL7",
+    "brand": "Totsy Baby",
+    "rank": 269,
+    "sub": 3,
+    "sales": 1034
+   },
+   {
+    "asin": "B0C5DP8NH4",
+    "brand": "ULLENBOOM",
+    "rank": 2195,
+    "sub": 10,
+    "sales": 177
+   },
+   {
+    "asin": "B0H2LLH6QD",
+    "brand": "babybay",
+    "rank": 2831,
+    "sub": 7,
+    "sales": 117
+   },
+   {
+    "asin": "B0H2LMQC21",
+    "brand": "babybay",
+    "rank": 5253,
+    "sub": 9,
+    "sales": 102
+   },
+   {
+    "asin": "B0GDX33C3H",
+    "brand": "HDUYFYD",
+    "rank": 6883,
+    "sub": 11,
+    "sales": 88
+   },
+   {
+    "asin": "B00KRDKWM6",
+    "brand": "Träumeland",
+    "rank": 7075,
+    "sub": 12,
+    "sales": 79
+   },
+   {
+    "asin": "B07KTBW2PF",
+    "brand": "Medibino",
+    "rank": 7490,
+    "sub": 20,
+    "sales": 76
+   },
+   {
+    "asin": "B07NBQBJ5T",
+    "brand": "sleepling",
+    "rank": 6705,
+    "sub": 8,
+    "sales": 51
+   }
+  ]
+ },
+ "KPHB|ES": {
+  "status": "ok",
+  "node": 1909518031,
+  "reused_from": null,
+  "hero": "B07FC27HPT",
+  "cfg_hero": "B07FC1DTZ3",
+  "ours": [
+   {
+    "asin": "B07287LFMS",
+    "sub": 1,
+    "sales": 994
+   },
+   {
+    "asin": "B071VQG35B",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071G58PZR",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B07FC1DTZ3",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071JR532L",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B07FC27HPT",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B07FC27HGD",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071JR7FGJ",
+    "sub": 1,
+    "sales": 944
+   },
+   {
+    "asin": "B071493954",
+    "sub": 1,
+    "sales": 944
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0HLFVH1T3",
+    "brand": "MATTREX BIENVENIDO A MATTREX EL ORIGEN DE UN BUEN COLCHON",
+    "rank": 286,
+    "sub": 30,
+    "sales": 1046
+   },
+   {
+    "asin": "B0G4D4KCSY",
+    "brand": "Totsy Baby",
+    "rank": 250,
+    "sub": 263,
+    "sales": 497
+   },
+   {
+    "asin": "B0DMWYCTT7",
+    "brand": "Totsy Baby",
+    "rank": 834,
+    "sub": 4,
+    "sales": 256
+   },
+   {
+    "asin": "B0F3FCK33X",
+    "brand": "variouss",
+    "rank": 1121,
+    "sub": 5,
+    "sales": 229
+   },
+   {
+    "asin": "B0HLG1969B",
+    "brand": "Dear Friend",
+    "rank": 4401,
+    "sub": 14,
+    "sales": 202
+   },
+   {
+    "asin": "B0C53QBK4H",
+    "brand": "MIMOS",
+    "rank": 1184,
+    "sub": 9,
+    "sales": 174
+   },
+   {
+    "asin": "B0FM3N6LCL",
+    "brand": "Dalala",
+    "rank": 1261,
+    "sub": 2,
+    "sales": 136
+   },
+   {
+    "asin": "B0D83G46FR",
+    "brand": "Jiahuade",
+    "rank": 7248,
+    "sub": 24,
+    "sales": 102
+   }
+  ]
+ },
+ "KPHB|UK": {
+  "status": "ok",
+  "node": 60599031,
+  "reused_from": null,
+  "hero": "B07FC27HPT",
+  "cfg_hero": "B07FC1DTZ3",
+  "ours": [
+   {
+    "asin": "B07FC1DTZ3",
+    "sub": 87,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0DLKK9WVG",
+    "brand": "Babyezz",
+    "rank": 7708,
+    "sub": 7,
+    "sales": 623
+   },
+   {
+    "asin": "B0DPMYD4KD",
+    "brand": "SIKAINI",
+    "rank": 2365,
+    "sub": 1,
+    "sales": 287
+   },
+   {
+    "asin": "B0B6VDH937",
+    "brand": "Aisawate",
+    "rank": 3171,
+    "sub": 7,
+    "sales": 222
+   },
+   {
+    "asin": "B084T28VGB",
+    "brand": "ARLINENS",
+    "rank": 3862,
+    "sub": 2,
+    "sales": 130
+   },
+   {
+    "asin": "B0H4V8PKSS",
+    "brand": "MIA we dress your home",
+    "rank": 4974,
+    "sub": 3,
+    "sales": 95
+   },
+   {
+    "asin": "B0BZ58QGKL",
+    "brand": "alkamto",
+    "rank": 5563,
+    "sub": 4,
+    "sales": 83
+   },
+   {
+    "asin": "B0DMXDCYR8",
+    "brand": "Totsy Baby",
+    "rank": 4691,
+    "sub": 99,
+    "sales": 75
+   },
+   {
+    "asin": "B07NZNDXJZ",
+    "brand": "GanEn",
+    "rank": 13526,
+    "sub": 17,
+    "sales": 70
+   }
+  ]
+ },
+ "HUG|IT": {
+  "status": "ok",
+  "node": 1806709031,
+  "reused_from": null,
+  "hero": "B07FC6KSL3",
+  "cfg_hero": "B0DQYQFXFL",
+  "ours": [
+   {
+    "asin": "B0DQYQFXFL",
+    "sub": 3,
+    "sales": null
+   },
+   {
+    "asin": "B07FC37H9N",
+    "sub": 3,
+    "sales": 990
+   },
+   {
+    "asin": "B07FC6KSL3",
+    "sub": 3,
+    "sales": 951
+   },
+   {
+    "asin": "B0DTQD4336",
+    "sub": 3,
+    "sales": 951
+   },
+   {
+    "asin": "B0DQYT9ZZL",
+    "sub": 3,
+    "sales": 951
+   },
+   {
+    "asin": "B0DQYSW8QR",
+    "sub": 3,
+    "sales": 951
+   },
+   {
+    "asin": "B0DTQBHK2B",
+    "sub": 3,
+    "sales": 951
+   },
+   {
+    "asin": "B0DQYRGY8W",
+    "sub": 3,
+    "sales": 951
+   },
+   {
+    "asin": "B0DQYSTHXP",
+    "sub": 3,
+    "sales": 951
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B07MJX7BX9",
+    "brand": "Niimo",
+    "rank": 110,
+    "sub": 1,
+    "sales": 1613
+   },
+   {
+    "asin": "B0FJY3VHQT",
+    "brand": "Flowen",
+    "rank": 164,
+    "sub": 2,
+    "sales": 838
+   },
+   {
+    "asin": "B0GVSV5SBH",
+    "brand": "The Double Twenty",
+    "rank": 1687,
+    "sub": 8,
+    "sales": 382
+   },
+   {
+    "asin": "B0GYDM3VP2",
+    "brand": "DOLCI SOGNI",
+    "rank": 1156,
+    "sub": 4,
+    "sales": 283
+   },
+   {
+    "asin": "B0CK4R9FQH",
+    "brand": "Totsy Baby",
+    "rank": 1235,
+    "sub": 42,
+    "sales": 193
+   },
+   {
+    "asin": "B0FRLT22QB",
+    "brand": "momcozy",
+    "rank": 1277,
+    "sub": 5,
+    "sales": 185
+   },
+   {
+    "asin": "B01I9OYZFY",
+    "brand": "HOBEA-Germany",
+    "rank": 1596,
+    "sub": 70,
+    "sales": 149
+   },
+   {
+    "asin": "B0BTFNH8YY",
+    "brand": "BUBBLIN - COCCOLA IL TUO BIMBO",
+    "rank": 1574,
+    "sub": 8,
+    "sales": 136
+   }
+  ]
+ },
+ "HUG|FR": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0DQYQFXFL"
+ },
+ "HUG|DE": {
+  "status": "ok",
+  "node": 3340965031,
+  "reused_from": null,
+  "hero": "B07FC37H9N",
+  "cfg_hero": "B0DQYQFXFL",
+  "ours": [
+   {
+    "asin": "B0DQYQFXFL",
+    "sub": 260,
+    "sales": 27
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B09F9GL351",
+    "brand": "LILENO HOME",
+    "rank": 70,
+    "sub": 28,
+    "sales": 12482
+   },
+   {
+    "asin": "B0DQCL64PM",
+    "brand": "Chilling Home",
+    "rank": 2633,
+    "sub": 4,
+    "sales": 3099
+   },
+   {
+    "asin": "B0DD7MZ3JL",
+    "brand": "sleepling",
+    "rank": 1025,
+    "sub": 2,
+    "sales": 2769
+   },
+   {
+    "asin": "B09XK8LQGX",
+    "brand": "Nuliie",
+    "rank": 701,
+    "sub": 1,
+    "sales": 2549
+   },
+   {
+    "asin": "B0DNFTKGLN",
+    "brand": "Totsy Baby",
+    "rank": 1911,
+    "sub": 100,
+    "sales": 1761
+   },
+   {
+    "asin": "B0CGJKDDSB",
+    "brand": "Utopia Bedding",
+    "rank": 3561,
+    "sub": 5,
+    "sales": 1502
+   },
+   {
+    "asin": "B0DWSRCW7C",
+    "brand": "TaiBest",
+    "rank": 7702,
+    "sub": 8,
+    "sales": 1446
+   },
+   {
+    "asin": "B0BQMNBRMR",
+    "brand": "sei Design",
+    "rank": 87990,
+    "sub": 66,
+    "sales": 1413
+   }
+  ]
+ },
+ "HUG|ES": {
+  "status": "ok",
+  "node": 1909612031,
+  "reused_from": null,
+  "hero": "B07FC37H9N",
+  "cfg_hero": "B0DQYQFXFL",
+  "ours": [
+   {
+    "asin": "B0DQYQFXFL",
+    "sub": 4,
+    "sales": 426
+   },
+   {
+    "asin": "B0DTQD4336",
+    "sub": 4,
+    "sales": 426
+   },
+   {
+    "asin": "B0DTQBHK2B",
+    "sub": 4,
+    "sales": 426
+   },
+   {
+    "asin": "B07FC6KSL3",
+    "sub": 4,
+    "sales": 420
+   },
+   {
+    "asin": "B07FC37H9N",
+    "sub": 4,
+    "sales": 420
+   },
+   {
+    "asin": "B0DQYSW8QR",
+    "sub": 4,
+    "sales": 384
+   },
+   {
+    "asin": "B0DQYRGY8W",
+    "sub": 4,
+    "sales": 384
+   },
+   {
+    "asin": "B0DQYT9ZZL",
+    "sub": 4,
+    "sales": 384
+   },
+   {
+    "asin": "B0DQYSTHXP",
+    "sub": 4,
+    "sales": 384
+   },
+   {
+    "asin": "B07ND58735",
+    "sub": 41,
+    "sales": 251
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0DNZ9LWD3",
+    "brand": "Totsy Baby",
+    "rank": 623,
+    "sub": 3,
+    "sales": 1374
+   },
+   {
+    "asin": "B0DHVN48H1",
+    "brand": "Niimo",
+    "rank": 147,
+    "sub": 1,
+    "sales": 770
+   },
+   {
+    "asin": "B0F8PR3D62",
+    "brand": "momcozy",
+    "rank": 593,
+    "sub": 2,
+    "sales": 416
+   },
+   {
+    "asin": "B079RN8ZB1",
+    "brand": "PEKITAS",
+    "rank": 1242,
+    "sub": 9,
+    "sales": 331
+   },
+   {
+    "asin": "B07Q4JVFNH",
+    "brand": "Dilamababy",
+    "rank": 868,
+    "sub": 7,
+    "sales": 286
+   },
+   {
+    "asin": "B0F21V3PRR",
+    "brand": "MATERNIKA",
+    "rank": 725,
+    "sub": 5,
+    "sales": 241
+   },
+   {
+    "asin": "B0FHBFRPC5",
+    "brand": "Flowen",
+    "rank": 808,
+    "sub": 6,
+    "sales": 241
+   },
+   {
+    "asin": "B0GXV8C8FD",
+    "brand": "momcozy",
+    "rank": 1452,
+    "sub": 13,
+    "sales": 176
+   }
+  ]
+ },
+ "HUG|UK": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0DQYQFXFL"
+ },
+ "KCB2|IT": {
+  "status": "ok",
+  "node": 1806414031,
+  "reused_from": "KCB",
+  "hero": "B0B977LBZF",
+  "cfg_hero": "B0B972NB6J",
+  "ours": [
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 1,
+    "sales": 1580
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 1,
+    "sales": 1533
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 2,
+    "sales": 637
+   },
+   {
+    "asin": "B0D4ZNFKYQ",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0D4ZMPS1Z",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 2,
+    "sales": 627
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 2,
+    "sales": 627
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0D9R594WP",
+    "brand": "Infantino",
+    "rank": 85,
+    "sub": 4,
+    "sales": 1469
+   },
+   {
+    "asin": "B0FRMM1B5D",
+    "brand": "momcozy",
+    "rank": 403,
+    "sub": 2,
+    "sales": 651
+   },
+   {
+    "asin": "B0DPW1D5W5",
+    "brand": "Sleepy Wrap",
+    "rank": 691,
+    "sub": 5,
+    "sales": 384
+   },
+   {
+    "asin": "B0FSRG158C",
+    "brand": "AOOWU",
+    "rank": 787,
+    "sub": 6,
+    "sales": 270
+   },
+   {
+    "asin": "B0F21PWPY5",
+    "brand": "Jane",
+    "rank": 1743,
+    "sub": 14,
+    "sales": 207
+   },
+   {
+    "asin": "B0DHXN4PT2",
+    "brand": "Laleni",
+    "rank": 1080,
+    "sub": 7,
+    "sales": 205
+   },
+   {
+    "asin": "B0C2Z2XZQ1",
+    "brand": "Ergobaby",
+    "rank": 1180,
+    "sub": 8,
+    "sales": 187
+   },
+   {
+    "asin": "B0BWSML9XT",
+    "brand": "Boba",
+    "rank": 1597,
+    "sub": 10,
+    "sales": 147
+   }
+  ]
+ },
+ "KCB2|FR": {
+  "status": "ok",
+  "node": 3966193031,
+  "reused_from": "KCB",
+  "hero": "B0CDD58HPG",
+  "cfg_hero": "B0B972NB6J",
+  "ours": [
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 2,
+    "sales": 1125
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 2,
+    "sales": 1116
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 2,
+    "sales": 1099
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 4,
+    "sales": 228
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 4,
+    "sales": 228
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH2RSGC",
+    "brand": "momcozy",
+    "rank": 76,
+    "sub": 1,
+    "sales": 2286
+   },
+   {
+    "asin": "B0DPNCVDK9",
+    "brand": "Sleepy Wrap",
+    "rank": 601,
+    "sub": 3,
+    "sales": 677
+   },
+   {
+    "asin": "B0GX8YB29Y",
+    "brand": "JOYNCLEON",
+    "rank": 1311,
+    "sub": 104,
+    "sales": 203
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 1934,
+    "sub": 52,
+    "sales": 197
+   },
+   {
+    "asin": "B0FBQZ4DPJ",
+    "brand": "Mumgaroo",
+    "rank": 2122,
+    "sub": 8,
+    "sales": 161
+   },
+   {
+    "asin": "B0FDVVDNRP",
+    "brand": "IBOPUXIU",
+    "rank": 2004,
+    "sub": 11,
+    "sales": 161
+   },
+   {
+    "asin": "B0F6N85NBX",
+    "brand": "Bebamour",
+    "rank": 2355,
+    "sub": 59,
+    "sales": 130
+   },
+   {
+    "asin": "B09YZ18RQD",
+    "brand": "Ergobaby",
+    "rank": 2110,
+    "sub": 7,
+    "sales": 122
+   }
+  ]
+ },
+ "KCB2|DE": {
+  "status": "ok",
+  "node": 3968908031,
+  "reused_from": "KCB",
+  "hero": "B0D4ZNZDRH",
+  "cfg_hero": "B0B972NB6J",
+  "ours": [
+   {
+    "asin": "B07G85W2CN",
+    "sub": 2,
+    "sales": 1466
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 2,
+    "sales": 1466
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 2,
+    "sales": 1399
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 7,
+    "sales": 368
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 7,
+    "sales": 357
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 7,
+    "sales": 357
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQGYB7FK",
+    "brand": "Momcozy",
+    "rank": 283,
+    "sub": 1,
+    "sales": 1683
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 308,
+    "sub": 21,
+    "sales": 1384
+   },
+   {
+    "asin": "B0DHXP7M95",
+    "brand": "Laleni",
+    "rank": 329,
+    "sub": 3,
+    "sales": 1266
+   },
+   {
+    "asin": "B0CWMJD2ZM",
+    "brand": "Boba",
+    "rank": 1079,
+    "sub": 5,
+    "sales": 606
+   },
+   {
+    "asin": "B0HG95HTFX",
+    "brand": "bebear",
+    "rank": 812,
+    "sub": 20,
+    "sales": 515
+   },
+   {
+    "asin": "B091F86N38",
+    "brand": "KeaBabies",
+    "rank": 1026,
+    "sub": 4,
+    "sales": 481
+   },
+   {
+    "asin": "B0FMYGZ75J",
+    "brand": "Ergobaby",
+    "rank": 1217,
+    "sub": 10,
+    "sales": 421
+   },
+   {
+    "asin": "B0CDPGG96N",
+    "brand": "bebear",
+    "rank": 1232,
+    "sub": 16,
+    "sales": 322
+   }
+  ]
+ },
+ "KCB2|ES": {
+  "status": "ok",
+  "node": 1909314031,
+  "reused_from": "KCB",
+  "hero": "B0B97439HB",
+  "cfg_hero": "B0B972NB6J",
+  "ours": [
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 1,
+    "sales": 968
+   },
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 1,
+    "sales": 968
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 1,
+    "sales": 949
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 1,
+    "sales": 932
+   },
+   {
+    "asin": "B0B974V32V",
+    "sub": 5,
+    "sales": 429
+   },
+   {
+    "asin": "B0D4ZNZDRH",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0B97439HB",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0CDD58HPG",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0B977LBZF",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZNFKYP",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZMP6XH",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0D4ZNFKYQ",
+    "sub": 5,
+    "sales": 411
+   },
+   {
+    "asin": "B0CDCQPHR8",
+    "sub": 5,
+    "sales": 411
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH2GJ4P",
+    "brand": "momcozy",
+    "rank": 199,
+    "sub": 2,
+    "sales": 861
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 287,
+    "sub": 3,
+    "sales": 820
+   },
+   {
+    "asin": "B0FDKW6HL1",
+    "brand": "AOOWU",
+    "rank": 549,
+    "sub": 4,
+    "sales": 409
+   },
+   {
+    "asin": "B0F53PF26N",
+    "brand": "Quimets",
+    "rank": 514,
+    "sub": 25,
+    "sales": 388
+   },
+   {
+    "asin": "B00OJVNSFA",
+    "brand": "CuddleBug",
+    "rank": 1038,
+    "sub": 9,
+    "sales": 290
+   },
+   {
+    "asin": "B0DPW2LGSW",
+    "brand": "Sleepy Wrap",
+    "rank": 902,
+    "sub": 6,
+    "sales": 280
+   },
+   {
+    "asin": "B0CCF7QX7R",
+    "brand": "Boba",
+    "rank": 946,
+    "sub": 7,
+    "sales": 228
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 751,
+    "sub": 59,
+    "sales": 194
+   }
+  ]
+ },
+ "KCB2|UK": {
+  "status": "ok",
+  "node": 60542031,
+  "reused_from": "KCB",
+  "hero": "B0B972NB6J",
+  "cfg_hero": "B0B972NB6J",
+  "ours": [
+   {
+    "asin": "B0F9B5KDH6",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0892M2BB1",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0892LL85K",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B07G84LSYJ",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B07G85W2CN",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B07G85PQ5J",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0892MT1V3",
+    "sub": 5,
+    "sales": 614
+   },
+   {
+    "asin": "B0F9B38HPL",
+    "sub": 5,
+    "sales": 614
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0GQH7CF4S",
+    "brand": "momcozy",
+    "rank": 433,
+    "sub": 1,
+    "sales": 1951
+   },
+   {
+    "asin": "B0F1C1WKT2",
+    "brand": "Sanilinwild",
+    "rank": 661,
+    "sub": 3,
+    "sales": 1716
+   },
+   {
+    "asin": "B0CYM1S144",
+    "brand": "trekki",
+    "rank": 609,
+    "sub": 2,
+    "sales": 1563
+   },
+   {
+    "asin": "B0DPN9VCHW",
+    "brand": "Sleepy Wrap",
+    "rank": 827,
+    "sub": 4,
+    "sales": 613
+   },
+   {
+    "asin": "B07NZVGTK9",
+    "brand": "Boba",
+    "rank": 2016,
+    "sub": 10,
+    "sales": 611
+   },
+   {
+    "asin": "B0GFNLR4HJ",
+    "brand": "Ergobaby",
+    "rank": 1278,
+    "sub": 45,
+    "sales": 567
+   },
+   {
+    "asin": "B07CT5XK1C",
+    "brand": "RYLOOBABY",
+    "rank": 1321,
+    "sub": 6,
+    "sales": 458
+   },
+   {
+    "asin": "B0GGZMGZ4N",
+    "brand": "AYESY",
+    "rank": 1977,
+    "sub": 7,
+    "sales": 352
+   }
+  ]
+ },
+ "CCA|IT": {
+  "status": "ok",
+  "node": 27395823031,
+  "reused_from": null,
+  "hero": "B0H71TR6L7",
+  "cfg_hero": "B0H71TR6L7",
+  "ours": [
+   {
+    "asin": "B0H71TR6L7",
+    "sub": 14,
+    "sales": null
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B00M0DWQYI",
+    "brand": "Infantino",
+    "rank": 85,
+    "sub": 2,
+    "sales": 1469
+   },
+   {
+    "asin": "B0FJRPSM7Y",
+    "brand": "momcozy",
+    "rank": 125,
+    "sub": 1,
+    "sales": 1325
+   },
+   {
+    "asin": "B0GH12B5SJ",
+    "brand": "AYESY",
+    "rank": 684,
+    "sub": 3,
+    "sales": 284
+   },
+   {
+    "asin": "B0CQ48BJFC",
+    "brand": "Aolso",
+    "rank": 1454,
+    "sub": 7,
+    "sales": 240
+   },
+   {
+    "asin": "B0F21SGF6F",
+    "brand": "Jane",
+    "rank": 1743,
+    "sub": 18,
+    "sales": 215
+   },
+   {
+    "asin": "B07B41952V",
+    "brand": "Ergobaby",
+    "rank": 1865,
+    "sub": 9,
+    "sales": 203
+   },
+   {
+    "asin": "B0F5W6H6RQ",
+    "brand": "momcozy",
+    "rank": 791,
+    "sub": 4,
+    "sales": 190
+   },
+   {
+    "asin": "B0FLJXH3BP",
+    "brand": "YOLAY",
+    "rank": 959,
+    "sub": 5,
+    "sales": 189
+   }
+  ]
+ },
+ "CCA|FR": {
+  "status": "ok",
+  "node": 27396915031,
+  "reused_from": null,
+  "hero": "B0H71TR6L7",
+  "cfg_hero": "B0H71TR6L7",
+  "ours": [
+   {
+    "asin": "B0H71TR6L7",
+    "sub": 85,
+    "sales": null
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0G5SRMLWG",
+    "brand": "INFANTINO",
+    "rank": 89,
+    "sub": 1,
+    "sales": 2226
+   },
+   {
+    "asin": "B0FFMT1HCY",
+    "brand": "momcozy",
+    "rank": 98,
+    "sub": 2,
+    "sales": 1580
+   },
+   {
+    "asin": "B0H2HD2Q2P",
+    "brand": "AYESY",
+    "rank": 748,
+    "sub": 3,
+    "sales": 452
+   },
+   {
+    "asin": "B0H369RN6W",
+    "brand": "GROWNSY",
+    "rank": 812,
+    "sub": 4,
+    "sales": 280
+   },
+   {
+    "asin": "B0FSRNP7DX",
+    "brand": "AOOWU",
+    "rank": 1332,
+    "sub": 8,
+    "sales": 230
+   },
+   {
+    "asin": "B08XZV64PD",
+    "brand": "Momi",
+    "rank": 1387,
+    "sub": 9,
+    "sales": 217
+   },
+   {
+    "asin": "B0GRVT6PQG",
+    "brand": "VIDSTW",
+    "rank": 2324,
+    "sub": 17,
+    "sales": 209
+   },
+   {
+    "asin": "B0GX97DBWS",
+    "brand": "JOYNCLEON",
+    "rank": 1311,
+    "sub": 7,
+    "sales": 203
+   }
+  ]
+ },
+ "CCA|DE": {
+  "status": "ok",
+  "node": 27395627031,
+  "reused_from": null,
+  "hero": "B0H71TR6L7",
+  "cfg_hero": "B0H71TR6L7",
+  "ours": [
+   {
+    "asin": "B0H71TR6L7",
+    "sub": 76,
+    "sales": 34
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FJRQTW2Y",
+    "brand": "Momcozy",
+    "rank": 167,
+    "sub": 1,
+    "sales": 3759
+   },
+   {
+    "asin": "B0C2Z2XZQ1",
+    "brand": "Ergobaby",
+    "rank": 308,
+    "sub": 2,
+    "sales": 1512
+   },
+   {
+    "asin": "B0G5SRMLWG",
+    "brand": "INFANTINO",
+    "rank": 632,
+    "sub": 3,
+    "sales": 1187
+   },
+   {
+    "asin": "B0FG7B9LJM",
+    "brand": "GAGAKU",
+    "rank": 3842,
+    "sub": 31,
+    "sales": 946
+   },
+   {
+    "asin": "B07BTXTR5B",
+    "brand": "Ergobaby",
+    "rank": 1330,
+    "sub": 7,
+    "sales": 735
+   },
+   {
+    "asin": "B07X5HG2HC",
+    "brand": "Ergobaby",
+    "rank": 889,
+    "sub": 5,
+    "sales": 698
+   },
+   {
+    "asin": "B0FG77BCNK",
+    "brand": "GAGAKU",
+    "rank": 4470,
+    "sub": 36,
+    "sales": 696
+   },
+   {
+    "asin": "B0FSRG158C",
+    "brand": "AOOWU",
+    "rank": 825,
+    "sub": 4,
+    "sales": 616
+   }
+  ]
+ },
+ "CCA|ES": {
+  "status": "ok",
+  "node": 27395829031,
+  "reused_from": null,
+  "hero": "B0H71Y87Q2",
+  "cfg_hero": "B0H71TR6L7",
+  "ours": [
+   {
+    "asin": "B0H71TR6L7",
+    "sub": 30,
+    "sales": null
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B0FFMT1HCY",
+    "brand": "momcozy",
+    "rank": 139,
+    "sub": 1,
+    "sales": 1687
+   },
+   {
+    "asin": "B0D2P84RDZ",
+    "brand": "Jane",
+    "rank": 346,
+    "sub": 2,
+    "sales": 1025
+   },
+   {
+    "asin": "B09DQ7THHW",
+    "brand": "Ergobaby",
+    "rank": 287,
+    "sub": 9,
+    "sales": 820
+   },
+   {
+    "asin": "B0F21PWPY5",
+    "brand": "Jane",
+    "rank": 780,
+    "sub": 7,
+    "sales": 511
+   },
+   {
+    "asin": "B0D94SXBFR",
+    "brand": "Quimets",
+    "rank": 517,
+    "sub": 3,
+    "sales": 404
+   },
+   {
+    "asin": "B0747SN2T9",
+    "brand": "Ergobaby",
+    "rank": 584,
+    "sub": 4,
+    "sales": 301
+   },
+   {
+    "asin": "B0BXBDNGCT",
+    "brand": "Infantino",
+    "rank": 843,
+    "sub": 8,
+    "sales": 294
+   },
+   {
+    "asin": "B0FGD6WXR2",
+    "brand": "GAGAKU",
+    "rank": 1328,
+    "sub": 12,
+    "sales": 241
+   }
+  ]
+ },
+ "CCA|UK": {
+  "status": "na",
+  "reason": "node 27395627031 found on hero but category filter rejected: INVALID_INPUT.PARAM_INVALID (category not recognised on UK marketplace; retried once, also as string)",
+  "hero": "B0H71TR6L7"
+ },
+ "CWS|IT": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0B9757Q46"
+ },
+ "CWS|FR": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0B9757Q46"
+ },
+ "CWS|DE": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0B9757Q46"
+ },
+ "CWS|ES": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0B9757Q46"
+ },
+ "CWS|UK": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0B976QVVX"
+ },
+ "KSF|IT": {
+  "status": "ok",
+  "node": 5124710031,
+  "reused_from": null,
+  "hero": "B0F9FPJDD6",
+  "cfg_hero": "B0F9FPJDD6",
+  "ours": [
+   {
+    "asin": "B0F9FPJDD6",
+    "sub": 74,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B079ZD82GG",
+    "brand": "Chicco",
+    "rank": 531,
+    "sub": 1,
+    "sales": 879
+   },
+   {
+    "asin": "B0CTKL8SWC",
+    "brand": "KALOO",
+    "rank": 1161,
+    "sub": 3,
+    "sales": 430
+   },
+   {
+    "asin": "B07FF4KWCV",
+    "brand": "Interbaby",
+    "rank": 497,
+    "sub": 5,
+    "sales": 365
+   },
+   {
+    "asin": "B09PYYFNG6",
+    "brand": "KALOO",
+    "rank": 1974,
+    "sub": 8,
+    "sales": 340
+   },
+   {
+    "asin": "B088TG3PR7",
+    "brand": "Vicloon",
+    "rank": 2689,
+    "sub": 7,
+    "sales": 319
+   },
+   {
+    "asin": "B0987BYR1V",
+    "brand": "Vicloon",
+    "rank": 2153,
+    "sub": 4,
+    "sales": 222
+   },
+   {
+    "asin": "B09PYYYVMR",
+    "brand": "KALOO",
+    "rank": 2312,
+    "sub": 24,
+    "sales": 217
+   },
+   {
+    "asin": "B0C2Z8938S",
+    "brand": "Chicco",
+    "rank": 3569,
+    "sub": 13,
+    "sales": 199
+   }
+  ]
+ },
+ "KSF|FR": {
+  "status": "ok",
+  "node": 5124615031,
+  "reused_from": null,
+  "hero": "B0F9FM22CZ",
+  "cfg_hero": "B0F9FM22CZ",
+  "ours": [
+   {
+    "asin": "B0F9FM22CZ",
+    "sub": 863,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B07BMKNT4Y",
+    "brand": "Doudou et Compagnie",
+    "rank": 462,
+    "sub": 2,
+    "sales": 817
+   },
+   {
+    "asin": "B0CDCPD7KS",
+    "brand": "Noukie's",
+    "rank": 1397,
+    "sub": 4,
+    "sales": 627
+   },
+   {
+    "asin": "B0017XM41W",
+    "brand": "Sophie la Girafe",
+    "rank": 3133,
+    "sub": 8,
+    "sales": 530
+   },
+   {
+    "asin": "B07FF8C2Q6",
+    "brand": "Interbaby",
+    "rank": 604,
+    "sub": 3,
+    "sales": 481
+   },
+   {
+    "asin": "B0D6RZDJJL",
+    "brand": "Nattou",
+    "rank": 2190,
+    "sub": 57,
+    "sales": 459
+   },
+   {
+    "asin": "B0CFHZH5WH",
+    "brand": "KALOO",
+    "rank": 1551,
+    "sub": 6,
+    "sales": 429
+   },
+   {
+    "asin": "B0BHSJ5TL3",
+    "brand": "Vicloon",
+    "rank": 2510,
+    "sub": 5,
+    "sales": 398
+   },
+   {
+    "asin": "B0GWRLSZC7",
+    "brand": "Baby Nat",
+    "rank": 4034,
+    "sub": 14,
+    "sales": 323
+   }
+  ]
+ },
+ "KSF|ES": {
+  "status": "ok",
+  "node": 1909545031,
+  "reused_from": null,
+  "hero": "B0F9FW99YW",
+  "cfg_hero": "B0F9FW99YW",
+  "ours": [
+   {
+    "asin": "B0F9FW99YW",
+    "sub": 244,
+    "sales": 0
+   }
+  ],
+  "competitors": [
+   {
+    "asin": "B07FF8C2Q6",
+    "brand": "Interbaby",
+    "rank": 455,
+    "sub": 1,
+    "sales": 468
+   },
+   {
+    "asin": "B0DJR3J4X6",
+    "brand": "Interbaby",
+    "rank": 496,
+    "sub": 7,
+    "sales": 308
+   },
+   {
+    "asin": "B0C784RZ4Q",
+    "brand": "MIMUSELINA",
+    "rank": 1683,
+    "sub": 3,
+    "sales": 198
+   },
+   {
+    "asin": "B0FN7Q3N91",
+    "brand": "Moonkie",
+    "rank": 1787,
+    "sub": 4,
+    "sales": 131
+   },
+   {
+    "asin": "B0BW63ZBPD",
+    "brand": "KLOTTZ",
+    "rank": 2414,
+    "sub": 56,
+    "sales": 116
+   },
+   {
+    "asin": "B0B13Z54FJ",
+    "brand": "Vicloon",
+    "rank": 1072,
+    "sub": 2,
+    "sales": 111
+   },
+   {
+    "asin": "B0BTTC7L4K",
+    "brand": "Vicloon",
+    "rank": 1970,
+    "sub": 5,
+    "sales": 100
+   },
+   {
+    "asin": "B0BXXPPD8G",
+    "brand": "Interbaby",
+    "rank": 2243,
+    "sub": 8,
+    "sales": 100
+   }
+  ]
+ },
+ "KSF|UK": {
+  "status": "na",
+  "reason": "ASIN not found in Helium10 product DB (identifier lookup returned 0 rows, retried once)",
+  "hero": "B0F83TXC3X"
+ }
+}

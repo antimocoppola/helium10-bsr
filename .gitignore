@@ -1,0 +1,9 @@
+# dati di lavoro e file con dati aziendali (Sellerboard, Excel di analisi)
+tmp/
+dist/*.xlsx
+dist/bsr_dashboard_old_snapshots.html
+dist/decline_action_plan.html
+*.xlsx
+*.docx
+.env
+node_modules/

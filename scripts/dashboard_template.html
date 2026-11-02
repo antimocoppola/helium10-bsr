@@ -1,0 +1,345 @@
+<title>Koala BSR vs Competitor</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F2F0E8; --surface:#FFFFFF; --surface-2:#E7E4D8;
+  --ink:#1C201B; --ink-2:#565C51; --ink-3:#8B9184; --line:rgba(28,32,27,.14);
+  --accent:#1F6E5C; --accent-soft:#DCEFE9; --accent-ink:#14493D;
+  --comp:#51607A; --comp-soft:#E7EAF2; --comp-ink:#333E54;
+  --good:#2E7D46; --good-soft:#E3F2E7; --good-ink:#1D5230;
+  --warn:#A9711C; --warn-soft:#F8EEDA; --warn-ink:#6B480F;
+  --bad:#B23B34; --bad-soft:#FBE6E4; --bad-ink:#7A2620;
+  --sans:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --disp:"Archivo",var(--sans);
+  --mono:"IBM Plex Mono",ui-monospace,"Cascadia Code","SF Mono","Roboto Mono",Consolas,monospace;
+  --radius:10px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#12151A; --surface:#191D1F; --surface-2:#212623;
+  --ink:#E9ECE7; --ink-2:#A9B0A5; --ink-3:#6F766B; --line:rgba(233,236,231,.14);
+  --accent:#5FCDB0; --accent-soft:#16332C; --accent-ink:#A8E9D6;
+  --comp:#93A2C2; --comp-soft:#232A3D; --comp-ink:#C7D0E6;
+  --good:#7BC98F; --good-soft:#1C2E22; --good-ink:#A9E0B7;
+  --warn:#E0B15C; --warn-soft:#332A14; --warn-ink:#F0CE8F;
+  --bad:#E28880; --bad-soft:#341A17; --bad-ink:#F2ADA5;
+}}
+:root[data-theme="dark"]{
+  --paper:#12151A; --surface:#191D1F; --surface-2:#212623;
+  --ink:#E9ECE7; --ink-2:#A9B0A5; --ink-3:#6F766B; --line:rgba(233,236,231,.14);
+  --accent:#5FCDB0; --accent-soft:#16332C; --accent-ink:#A8E9D6;
+  --comp:#93A2C2; --comp-soft:#232A3D; --comp-ink:#C7D0E6;
+  --good:#7BC98F; --good-soft:#1C2E22; --good-ink:#A9E0B7;
+  --warn:#E0B15C; --warn-soft:#332A14; --warn-ink:#F0CE8F;
+  --bad:#E28880; --bad-soft:#341A17; --bad-ink:#F2ADA5;
+}
+:root[data-theme="light"]{
+  --paper:#F2F0E8; --surface:#FFFFFF; --surface-2:#E7E4D8;
+  --ink:#1C201B; --ink-2:#565C51; --ink-3:#8B9184; --line:rgba(28,32,27,.14);
+  --accent:#1F6E5C; --accent-soft:#DCEFE9; --accent-ink:#14493D;
+  --comp:#51607A; --comp-soft:#E7EAF2; --comp-ink:#333E54;
+  --good:#2E7D46; --good-soft:#E3F2E7; --good-ink:#1D5230;
+  --warn:#A9711C; --warn-soft:#F8EEDA; --warn-ink:#6B480F;
+  --bad:#B23B34; --bad-soft:#FBE6E4; --bad-ink:#7A2620;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);}
+.dash{font-family:var(--sans); color:var(--ink); background:var(--paper); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1.5rem; max-width:1180px; margin:0 auto;}
+.mono{font-family:var(--mono); font-variant-numeric:tabular-nums;}
+h1,h2,h3{font-family:var(--disp); text-wrap:balance; margin:0;}
+.masthead{display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; flex-wrap:wrap;}
+.eyebrow{font-family:var(--disp); font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--accent-ink); background:var(--accent-soft); display:inline-flex; align-items:center; gap:6px; padding:4px 10px 4px 8px; border-radius:0 var(--radius) var(--radius) 0; border-left:3px solid var(--accent); width:fit-content;}
+.title{font-size:22px; font-weight:700; margin:.6rem 0 0; letter-spacing:-.01em;}
+.subtitle{font-size:13px; color:var(--ink-2); margin:.3rem 0 0; max-width:56ch; line-height:1.5;}
+.updated-tag{font-size:11px; color:var(--ink-3); margin-top:.5rem; font-family:var(--mono);}
+.legend{display:flex; align-items:center; gap:14px; font-size:11px; color:var(--ink-3); background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:9px 13px; flex:none; flex-wrap:wrap;}
+.legend .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; vertical-align:1px;}
+.legend .dot.mine{background:var(--accent);}
+.legend .dot.comp{background:var(--comp);}
+.legend .dot.avg{background:var(--ink-3);}
+
+.statrow{display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px;}
+.stat{background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:0 var(--radius) var(--radius) 0; padding:.85rem .95rem; display:flex; flex-direction:column; gap:4px;}
+.stat .lbl{font-size:10px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--ink-3); font-family:var(--disp);}
+.stat .val{font-size:21px; font-weight:600; font-family:var(--mono);}
+.stat .sub{font-size:11px; color:var(--ink-3);}
+
+.fam-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:10px;}
+.fam-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:.85rem .95rem; display:flex; flex-direction:column; gap:6px; cursor:pointer; text-align:left; font-family:inherit; color:inherit; transition:border-color .12s ease, transform .12s ease;}
+.fam-card:hover{border-color:var(--accent);}
+.fam-card.active{border-color:var(--accent); box-shadow:0 0 0 1px var(--accent);}
+.fam-card .code{font-family:var(--disp); font-size:12px; font-weight:700; letter-spacing:.04em; color:var(--accent-ink); background:var(--accent-soft); padding:2px 7px; border-radius:5px; width:fit-content;}
+.fam-card .fname{font-size:13px; font-weight:500; line-height:1.3;}
+.fam-card .frank{display:flex; align-items:baseline; gap:5px; margin-top:2px;}
+.fam-card .frank .n{font-family:var(--mono); font-size:19px; font-weight:600;}
+.fam-card .frank .lbl{font-size:10px; color:var(--ink-3);}
+.fam-card .fmeta{font-size:10.5px; color:var(--ink-3);}
+
+.detail{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:1.1rem; display:flex; flex-direction:column; gap:1rem;}
+.detail-head{display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+.detail-head h2{font-size:17px;}
+.detail-head .dsub{font-size:12px; color:var(--ink-3); font-family:var(--sans);}
+.mp-tabs{display:flex; gap:6px; flex-wrap:wrap;}
+.mp-tab{font-family:var(--mono); font-size:12px; font-weight:500; padding:6px 12px; border-radius:99px; border:1px solid var(--line); background:var(--surface-2); color:var(--ink-2); cursor:pointer;}
+.mp-tab:hover{border-color:var(--comp);}
+.mp-tab.active{background:var(--accent); border-color:var(--accent); color:var(--paper); font-weight:600;}
+.mp-tab.nodata{opacity:.45; text-decoration:line-through;}
+
+.mp-body{display:grid; grid-template-columns:1.3fr 1fr; gap:1.25rem; align-items:start;}
+@media (max-width:760px){ .mp-body{grid-template-columns:1fr;} }
+
+table{width:100%; border-collapse:collapse; font-size:12.5px;}
+th{text-align:right; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-3); padding:0 7px 6px; border-bottom:1px solid var(--line); font-family:var(--disp);}
+th:first-child, td:first-child{text-align:left;}
+td{padding:6px 7px; text-align:right; border-bottom:1px solid var(--line); font-family:var(--mono);}
+tbody tr:last-child td{border-bottom:none;}
+tbody tr.mine{background:var(--accent-soft);}
+tbody tr.mine td:first-child{border-left:3px solid var(--accent); padding-left:5px;}
+tbody tr.avgrow td{color:var(--ink-3); font-style:italic;}
+.role-tag{font-family:var(--sans); font-weight:600; font-size:10.5px;}
+.tblwrap{overflow-x:auto; border:1px solid var(--line); border-radius:var(--radius);}
+
+.spark-card{display:flex; flex-direction:column; gap:8px; background:var(--surface-2); border:1px solid var(--line); border-radius:var(--radius); padding:.9rem;}
+.spark-card .stitle{font-size:11px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-3); font-family:var(--disp);}
+.spark-card svg{width:100%; height:auto; display:block;}
+.spark-empty{font-size:12px; color:var(--ink-3); font-family:var(--sans); line-height:1.5;}
+
+.pill{display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:99px; font-size:10.5px; font-weight:600; white-space:nowrap; font-family:var(--sans);}
+.pill.good{background:var(--good-soft); color:var(--good-ink);}
+.pill.warn{background:var(--warn-soft); color:var(--warn-ink);}
+.pill.bad{background:var(--bad-soft); color:var(--bad-ink);}
+.pill.neutral{background:var(--surface-2); color:var(--ink-3);}
+
+.empty-msg{font-size:13px; color:var(--ink-3); text-align:center; padding:1.5rem; font-family:var(--sans);}
+.footnote{font-size:11px; color:var(--ink-3); line-height:1.7; font-family:var(--sans); max-width:80ch;}
+:where(a){color:var(--accent-ink);}
+</style>
+
+<div class="dash">
+  <div class="masthead">
+    <div>
+      <span class="eyebrow">Helium10 &middot; Koala Babycare</span>
+      <h1 class="title">BSR vs competitor ranking</h1>
+      <p class="subtitle">Best Sellers Rank for our 13 product families against their top Amazon competitors, tracked daily across every marketplace we sell in.</p>
+      <p class="updated-tag mono" id="updated-tag"></p>
+    </div>
+    <div class="legend">
+      <span><span class="dot mine"></span>Koala Babycare</span>
+      <span><span class="dot comp"></span>Competitor</span>
+      <span><span class="dot avg"></span>Search-cohort average</span>
+      <span>Lower BSR = better rank</span>
+    </div>
+  </div>
+
+  <div class="statrow" id="kpi-row"></div>
+
+  <div class="fam-grid" id="fam-grid"></div>
+
+  <div class="detail" id="detail"></div>
+
+  <p class="footnote" id="footnote"></p>
+</div>
+
+<script>
+const DATA = __DATA_PLACEHOLDER__;
+
+function fmtInt(n){ return (n===null||n===undefined) ? "—" : Math.round(n).toLocaleString("en-US"); }
+function fmtPrice(n){ return (n===null||n===undefined) ? "—" : ("$"+n.toFixed(2)); }
+function fmtRating(n){ return (n===null||n===undefined) ? "—" : n.toFixed(1); }
+
+// ---- index rows ----
+// row: [date, family, marketplace, asin, role, bsr, price, review_count, rating, sales, revenue]
+const byFamMp = {}; // family -> marketplace -> date -> {mine, competitors:[], avg}
+for (const r of DATA.rows) {
+  const [date, family, marketplace, asin, role, bsr, price, review_count, rating, sales, revenue] = r;
+  byFamMp[family] = byFamMp[family] || {};
+  byFamMp[family][marketplace] = byFamMp[family][marketplace] || {};
+  const day = byFamMp[family][marketplace][date] = byFamMp[family][marketplace][date] || { mine:null, competitors:[], avg:null };
+  const row = { asin, bsr, price, review_count, rating, sales, revenue };
+  if (role === "mine") day.mine = row;
+  else if (role === "competitor") day.competitors.push(row);
+  else if (role === "group_avg") day.avg = row;
+}
+
+const maxDate = DATA.maxDate;
+const allDates = Object.keys(DATA.rows.reduce((a,r)=>{a[r[0]]=1;return a;},{})).sort();
+
+function mineSeries(family, marketplace) {
+  const mp = (byFamMp[family] || {})[marketplace] || {};
+  return allDates.map(d => mp[d] && mp[d].mine ? { date: d, bsr: mp[d].mine.bsr } : null).filter(Boolean);
+}
+
+function bestRankForFamily(family) {
+  let best = null, bestMp = null;
+  for (const mp of DATA.familyMarketplaces[family]) {
+    const day = ((byFamMp[family]||{})[mp]||{})[maxDate];
+    if (day && day.mine && day.mine.bsr != null) {
+      if (best === null || day.mine.bsr < best) { best = day.mine.bsr; bestMp = mp; }
+    }
+  }
+  return { best, bestMp };
+}
+
+function rankPill(mineBsr, avgBsr, bestCompBsr) {
+  if (mineBsr == null) return '<span class="pill neutral">no data</span>';
+  if (bestCompBsr == null && avgBsr == null) return '<span class="pill neutral">no competitors tracked</span>';
+  if (bestCompBsr != null && mineBsr <= bestCompBsr) return '<span class="pill good">leading</span>';
+  if (avgBsr != null && mineBsr <= avgBsr) return '<span class="pill warn">mid-pack</span>';
+  return '<span class="pill bad">behind</span>';
+}
+
+// ---- overall KPI row ----
+function renderKpis() {
+  const famList = DATA.familyOrder;
+  let leading=0, midpack=0, behind=0, nodata=0, nocomp=0;
+  for (const fam of famList) {
+    for (const mp of DATA.familyMarketplaces[fam]) {
+      const day = ((byFamMp[fam]||{})[mp]||{})[maxDate];
+      if (!day || !day.mine || day.mine.bsr == null) { nodata++; continue; }
+      const bestComp = day.competitors.length ? Math.min(...day.competitors.map(c=>c.bsr).filter(x=>x!=null)) : null;
+      const avg = day.avg ? day.avg.bsr : null;
+      if (bestComp == null && avg == null) { nocomp++; continue; }
+      if (bestComp != null && day.mine.bsr <= bestComp) leading++;
+      else if (avg != null && day.mine.bsr <= avg) midpack++;
+      else behind++;
+    }
+  }
+  const total = leading+midpack+behind+nodata+nocomp;
+  const el = document.getElementById("kpi-row");
+  el.innerHTML = [
+    ['Tracked combos', total, famList.length+' families'],
+    ['Leading', leading, 'best-in-cohort BSR'],
+    ['Mid-pack', midpack, 'better than search avg'],
+    ['Behind', behind, 'worse than search avg'],
+    ['No data today', nodata+nocomp, 'coverage gap or no competitors found'],
+  ].map(([lbl,val,sub])=>`<div class="stat"><span class="lbl">${lbl}</span><span class="val">${val}</span><span class="sub">${sub}</span></div>`).join("");
+}
+
+// ---- family grid ----
+let activeFamily = null, activeMp = null;
+
+function renderFamGrid() {
+  const el = document.getElementById("fam-grid");
+  el.innerHTML = DATA.familyOrder.map(fam => {
+    const { best, bestMp } = bestRankForFamily(fam);
+    const mps = DATA.familyMarketplaces[fam];
+    return `<button class="fam-card" data-fam="${fam}">
+      <span class="code">${fam}</span>
+      <span class="fname">${DATA.familyNames[fam]}</span>
+      <span class="frank"><span class="n mono">${best!=null?fmtInt(best):"—"}</span><span class="lbl">${best!=null?("best BSR · "+bestMp):"no data today"}</span></span>
+      <span class="fmeta">${mps.length} marketplace${mps.length>1?"s":""}: ${mps.join(", ")}</span>
+    </button>`;
+  }).join("");
+  el.querySelectorAll(".fam-card").forEach(btn => {
+    btn.addEventListener("click", () => selectFamily(btn.dataset.fam));
+  });
+}
+
+function selectFamily(fam) {
+  activeFamily = fam;
+  const mps = DATA.familyMarketplaces[fam];
+  // pick marketplace with data today, else first
+  activeMp = mps.find(mp => {
+    const day = ((byFamMp[fam]||{})[mp]||{})[maxDate];
+    return day && day.mine && day.mine.bsr != null;
+  }) || mps[0];
+  document.querySelectorAll(".fam-card").forEach(c => c.classList.toggle("active", c.dataset.fam === fam));
+  renderDetail();
+  document.getElementById("detail").scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+
+function selectMp(mp) { activeMp = mp; renderDetail(); }
+
+function sparkSvg(series) {
+  if (series.length < 2) return null;
+  const w = 320, h = 72, pad = 6;
+  const bsrs = series.map(p=>p.bsr);
+  const min = Math.min(...bsrs), max = Math.max(...bsrs);
+  const range = (max - min) || 1;
+  // lower bsr = better = higher on chart, so invert y
+  const pts = series.map((p,i) => {
+    const x = pad + (i/(series.length-1)) * (w-2*pad);
+    const y = pad + (1 - (p.bsr - min)/range) * (h-2*pad);
+    return [x,y];
+  });
+  const path = pts.map((p,i)=> (i===0?"M":"L")+p[0].toFixed(1)+","+p[1].toFixed(1)).join(" ");
+  const areaPath = path + ` L${pts[pts.length-1][0].toFixed(1)},${h-pad} L${pts[0][0].toFixed(1)},${h-pad} Z`;
+  const last = pts[pts.length-1];
+  return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="BSR trend, ${series.length} days, ranging from ${fmtInt(min)} to ${fmtInt(max)}">
+    <path d="${areaPath}" fill="var(--accent-soft)" stroke="none"></path>
+    <path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+    <circle cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="3.2" fill="var(--accent)"></circle>
+  </svg>`;
+}
+
+function renderDetail() {
+  const el = document.getElementById("detail");
+  if (!activeFamily) {
+    el.innerHTML = `<div class="empty-msg">Pick a product family above to see its BSR vs competitors.</div>`;
+    return;
+  }
+  const fam = activeFamily, mp = activeMp;
+  const mps = DATA.familyMarketplaces[fam];
+  const day = ((byFamMp[fam]||{})[mp]||{})[maxDate];
+
+  const tabsHtml = mps.map(m => {
+    const d = ((byFamMp[fam]||{})[m]||{})[maxDate];
+    const hasData = d && d.mine && d.mine.bsr != null;
+    return `<button class="mp-tab ${m===mp?'active':''} ${hasData?'':'nodata'}" data-mp="${m}">${m}</button>`;
+  }).join("");
+
+  let bodyHtml;
+  if (!day || !day.mine || day.mine.bsr == null) {
+    bodyHtml = `<div class="empty-msg">No Helium10 data available for ${fam} / ${mp} today (data-coverage gap). Other marketplaces above may still have data.</div>`;
+  } else {
+    const rows = [{ role:"mine", ...day.mine }, ...day.competitors.map(c=>({role:"competitor", ...c}))]
+      .sort((a,b) => (a.bsr??1e15) - (b.bsr??1e15));
+    const bestComp = day.competitors.length ? Math.min(...day.competitors.map(c=>c.bsr).filter(x=>x!=null)) : null;
+    const avg = day.avg ? day.avg.bsr : null;
+
+    const tableRows = rows.map(r => `<tr class="${r.role==='mine'?'mine':''}">
+        <td>${r.role==='mine' ? '<span class="role-tag" style="color:var(--accent-ink)">Koala</span>' : '<span class="role-tag" style="color:var(--comp-ink)">'+r.asin+'</span>'}</td>
+        <td>${fmtInt(r.bsr)}</td>
+        <td>${fmtPrice(r.price)}</td>
+        <td>${fmtInt(r.review_count)}</td>
+        <td>${fmtRating(r.rating)}</td>
+        <td>${fmtInt(r.sales)}</td>
+        <td>${fmtInt(r.revenue)}</td>
+      </tr>`).join("");
+    const avgRow = day.avg ? `<tr class="avgrow"><td>Search-cohort avg</td><td>${fmtInt(day.avg.bsr)}</td><td>${fmtPrice(day.avg.price)}</td><td>${fmtInt(day.avg.review_count)}</td><td>${fmtRating(day.avg.rating)}</td><td>${fmtInt(day.avg.sales)}</td><td>${fmtInt(day.avg.revenue)}</td></tr>` : "";
+
+    const series = mineSeries(fam, mp);
+    const spark = sparkSvg(series);
+
+    bodyHtml = `<div class="mp-body">
+      <div class="tblwrap">
+        <table>
+          <thead><tr><th>ASIN</th><th>BSR</th><th>Price</th><th>Reviews</th><th>Rating</th><th>Mo. sales</th><th>Mo. revenue</th></tr></thead>
+          <tbody>${tableRows}${avgRow}</tbody>
+        </table>
+      </div>
+      <div class="spark-card">
+        <span class="stitle">Your BSR trend &middot; ${mp}</span>
+        ${spark ? spark : '<div class="spark-empty">Only one day of history so far (' + maxDate + '). A trend line will appear once the daily job has run for a few more days.</div>'}
+        <span class="sub" style="font-size:11px;color:var(--ink-3);">${rankPill(day.mine.bsr, avg, bestComp)} vs ${day.competitors.length} competitor${day.competitors.length===1?"":"s"} tracked</span>
+      </div>
+    </div>`;
+  }
+
+  el.innerHTML = `
+    <div class="detail-head">
+      <h2>${fam} &middot; ${DATA.familyNames[fam]}</h2>
+      <span class="dsub">Data as of ${maxDate}</span>
+    </div>
+    <div class="mp-tabs">${tabsHtml}</div>
+    ${bodyHtml}
+  `;
+  el.querySelectorAll(".mp-tab").forEach(btn => btn.addEventListener("click", () => selectMp(btn.dataset.mp)));
+}
+
+document.getElementById("updated-tag").textContent = "Data as of " + DATA.maxDate + " · generated " + DATA.generatedAt;
+document.getElementById("footnote").innerHTML = "Competitor sets are hand-curated per marketplace (top revenue-ranked overlapping ASINs from Helium10's Competitor Search) and refreshed occasionally, not every day. \"Search-cohort average\" is Helium10's own-session competitor average, not a category-wide benchmark. Some (family, marketplace) combos have no data on a given day because of a Helium10 catalog-coverage gap for that ASIN &mdash; these show as “no data” rather than being silently dropped.";
+
+renderKpis();
+renderFamGrid();
+if (DATA.familyOrder.length) selectFamily(DATA.familyOrder[0]);
+</script>

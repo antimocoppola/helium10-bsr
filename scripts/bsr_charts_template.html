@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koala BSR vs Competitor</title>
+<style>
+  /* Design: same ledger system as the other Koala dashboards (cool grey paper, indigo accent, mono-first data).
+     Series colours = validated categorical slots 1-4 (blue, orange, aqua, yellow); status colours are separate. */
+  :root {
+    color-scheme: light;
+    --paper: #eef0ec; --surface: #fcfcfb; --surface-2: #e7eae4;
+    --ink: #14181f; --ink-2: #4a5159; --ink-3: #7b838b;
+    --line: #d5d9d2; --line-2: #b9beb5;
+    --accent: #2c4a7c; --accent-tint: #dfe6f1;
+    --good: #0b7a0b; --bad: #b83030; --warn-bg: #f6ecc8; --warn-ink: #6b5200;
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+    --mono: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #12151a; --surface: #1a1d23; --surface-2: #22262d;
+      --ink: #f0f1ee; --ink-2: #b8bdb4; --ink-3: #868c85;
+      --line: #30353d; --line-2: #454b54;
+      --accent: #7fa8dc; --accent-tint: #222c3d;
+      --good: #4cc24c; --bad: #ff7b7b; --warn-bg: #3a3218; --warn-ink: #e8d48a;
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #12151a; --surface: #1a1d23; --surface-2: #22262d;
+    --ink: #f0f1ee; --ink-2: #b8bdb4; --ink-3: #868c85;
+    --line: #30353d; --line-2: #454b54;
+    --accent: #7fa8dc; --accent-tint: #222c3d;
+    --good: #4cc24c; --bad: #ff7b7b; --warn-bg: #3a3218; --warn-ink: #e8d48a;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 14px/1.5 var(--sans); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px; }
+  header h1 { font: 700 22px/1.2 var(--mono); margin: 0 0 4px; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+  .meta { font: 12px var(--mono); color: var(--ink-3); margin-top: 8px; }
+  h2 { font: 600 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 32px 0 10px; }
+
+  /* overview grid */
+  .gridwrap { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+  table.grid { border-collapse: collapse; width: 100%; min-width: 760px; }
+  .grid th { font: 600 11px var(--mono); text-align: center; padding: 9px 6px; background: var(--surface-2); border-bottom: 1px solid var(--line); color: var(--ink-2); letter-spacing: .06em; }
+  .grid th.fam, .grid td.fam { text-align: left; padding-left: 12px; width: 190px; }
+  .grid td { border-bottom: 1px solid var(--line); border-left: 1px solid var(--line); padding: 0; height: 70px; }
+  .grid tr:last-child td { border-bottom: 0; }
+  .grid td.fam { border-left: 0; padding: 6px 10px; }
+  .fam b { font: 700 13px var(--mono); display: block; }
+  .fam span { font-size: 11.5px; color: var(--ink-2); }
+  button.cell { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 6px; width: 100%; height: 100%; padding: 6px 10px; }
+  button.cell:hover { background: var(--accent-tint); }
+  button.cell:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  button.cell[aria-current="true"] { background: var(--accent-tint); box-shadow: inset 0 -2px 0 var(--accent); }
+  .cell .now { font: 600 13px var(--mono); }
+  .cell .now, .cell .tr { grid-column: 1; }
+  .cell svg { grid-column: 2; grid-row: 1 / span 3; width: 64px; height: 30px; }
+  .up { color: var(--good); } .down { color: var(--bad); }
+  .cell .tr { font: 11px var(--mono); color: var(--ink-2); white-space: nowrap; }
+  .cell .tr { line-height: 1.25; }
+  .na { display: flex; align-items: center; justify-content: center; height: 100%; font: 11px var(--mono); color: var(--ink-3); background: repeating-linear-gradient(135deg, transparent 0 6px, var(--surface-2) 6px 7px); }
+
+  /* detail */
+  .panel { border: 1px solid var(--line); background: var(--surface); padding: 18px 18px 20px; }
+  .dhead { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: baseline; justify-content: space-between; }
+  .dhead h3 { font: 700 18px var(--mono); margin: 0; }
+  .dhead h3 small { font: 400 13px var(--sans); color: var(--ink-2); margin-left: 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip { font: 11px var(--mono); padding: 2px 8px; border: 1px solid var(--line-2); color: var(--ink-2); }
+  .chip.warn { background: var(--warn-bg); color: var(--warn-ink); border-color: transparent; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 16px 0; }
+  .kpi { background: var(--surface); padding: 10px 12px; }
+  .kpi .l { font: 10.5px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+  .kpi .v { font: 700 20px var(--mono); margin-top: 2px; }
+  .kpi .s { font-size: 12px; color: var(--ink-2); }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .seg { display: inline-flex; border: 1px solid var(--line-2); }
+  .seg button { all: unset; cursor: pointer; font: 12px var(--mono); padding: 5px 11px; color: var(--ink-2); }
+  .seg button + button { border-left: 1px solid var(--line-2); }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+  .seg button:focus-visible, .legend button:focus-visible, .linkbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .legend button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font: 12px var(--mono); color: var(--ink); padding: 2px 4px; }
+  .legend button[aria-pressed="false"] { color: var(--ink-3); text-decoration: line-through; }
+  .legend i { width: 18px; height: 3px; display: inline-block; }
+  #chart { position: relative; width: 100%; }
+  #chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+  .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line-2); padding: 6px 9px; font: 11.5px var(--mono); box-shadow: 0 2px 8px rgba(0,0,0,.18); white-space: nowrap; z-index: 3; }
+  .tip b { display: block; margin-bottom: 2px; }
+  .tip .r { display: flex; gap: 6px; align-items: center; }
+  .tip .r i { width: 8px; height: 8px; display: inline-block; }
+  .axis { font: 10.5px var(--mono); fill: var(--ink-3); }
+  .gl { stroke: var(--line); stroke-width: 1; }
+  .note { font-size: 12px; color: var(--ink-2); margin: 6px 0 0; max-width: 90ch; }
+  .nodata { padding: 40px 16px; text-align: center; color: var(--ink-2); border: 1px dashed var(--line-2); }
+
+  table.cmp { border-collapse: collapse; width: 100%; margin-top: 18px; font-size: 12.5px; }
+  .cmp th { text-align: left; font: 600 10.5px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding: 6px 8px; border-bottom: 1px solid var(--line-2); }
+  .cmp td { padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  .cmp .n { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; }
+  .cmp th.n { text-align: right; }
+  .cmp tr.us td { background: var(--accent-tint); }
+  .cmp i { display: inline-block; width: 10px; height: 10px; margin-right: 6px; vertical-align: -1px; }
+  .cmpwrap { overflow-x: auto; }
+  .cmp td .sub { display: block; font: 10.5px var(--sans); color: var(--ink-3); }
+  h4.bh { font: 600 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 22px 0 6px; }
+  .linkbtn { all: unset; cursor: pointer; font: 12px var(--mono); color: var(--accent); text-decoration: underline; }
+  table.data { border-collapse: collapse; margin-top: 8px; font: 11.5px var(--mono); }
+  .data th, .data td { padding: 3px 10px; border-bottom: 1px solid var(--line); text-align: right; }
+  .data th:first-child, .data td:first-child { text-align: left; }
+  @media (max-width: 720px) { .wrap { padding: 18px 12px 60px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>BSR vs competitor</h1>
+    <p>Andamento del Best Sellers Rank del nostro ASIN contro i primi competitor della stessa sottocategoria Amazon, per prodotto e paese. Il grafico usa scala logaritmica con i rank migliori in alto.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <h2>Panoramica &mdash; clicca una cella</h2>
+  <div class="gridwrap"><table class="grid" id="grid"></table></div>
+
+  <h2 id="dtitle">Dettaglio</h2>
+  <section class="panel" id="detail" aria-live="polite"></section>
+</div>
+
+<script type="application/json" id="data">__DATA_PLACEHOLDER__</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var N = D.dates.length;
+  var COLORS = ['var(--s1)', 'var(--s2)', 'var(--s3)', 'var(--s4)'];
+  var sel = { fam: null, mp: null, range: 90, hidden: {}, table: false };
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function fmtN(n) { return n == null ? 'n/d' : Math.round(n).toLocaleString('it-IT'); }
+  function fmtB(n) {
+    if (n == null) return 'n/d';
+    if (n >= 100000) return Math.round(n / 1000) + 'k';
+    if (n >= 10000) return (n / 1000).toFixed(1).replace('.', ',') + 'k';
+    return Math.round(n).toLocaleString('it-IT');
+  }
+  function fmtD(iso) { var p = iso.split('-'); return p[2] + '/' + p[1]; }
+  function last(arr) { for (var i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return arr[i]; return null; }
+  function mean(arr, a, b) { var s = 0, c = 0; for (var i = Math.max(a, 0); i <= b && i < arr.length; i++) if (arr[i] != null) { s += arr[i]; c++; } return c ? s / c : null; }
+  function trend(arr) {
+    var rec = mean(arr, N - 7, N - 1), pri = mean(arr, N - 37, N - 30);
+    if (rec == null || pri == null) return null;
+    return (rec - pri) / pri; // BSR change: <0 = rank improved, >0 = worse
+  }
+  function d7(arr) { // last available value vs the value 7 days earlier (point values)
+    var i = N - 1; while (i >= 0 && arr[i] == null) i--;
+    if (i < 8) return null;
+    var prev = arr[i - 7]; if (prev == null) prev = arr[i - 8] != null ? arr[i - 8] : arr[i - 6];
+    if (prev == null || prev === 0) return null;
+    return { now: arr[i], prev: prev, chg: (arr[i] - prev) / prev, date: D.dates[i - 7] };
+  }
+  function atOffset(arr, i, back) { // value `back` days before index i; nearest valid day within +-2
+    var j = i - back; if (j < 0) return null;
+    var order = [0, -1, 1, -2, 2];
+    for (var q = 0; q < order.length; q++) { var jj = j + order[q]; if (jj >= 0 && jj <= i && arr[jj] != null) return { v: arr[jj], idx: jj }; }
+    return null;
+  }
+  function horizons(arr, key) {
+    var i = N - 1; while (i >= 0 && arr[i] == null) i--;
+    var out = {}; if (i < 0) return out;
+    [7, 30, 60, 90, 180].forEach(function (h) {
+      var p = atOffset(arr, i, h);
+      out[h] = p && p.v ? { prev: p.v, chg: (arr[i] - p.v) / p.v, date: D.dates[p.idx] } : null;
+    });
+    var y = D.yoy && D.yoy[key];
+    out.yoy = y ? { prev: y, chg: (arr[i] - y) / y, date: (+D.dates[i].slice(0, 4) - 1) + D.dates[i].slice(4) } : null;
+    return out;
+  }
+  function fmtDL(iso) { if (!iso) return 'n/d'; var p = iso.split('-'); return p[2] + '/' + p[1] + '/' + p[0]; }
+  function bestCell(b) { return b ? '<b>' + fmtN(b.bsr) + '</b><span class="sub">' + fmtDL(b.date) + '</span>' : 'n/d'; }
+  function bestTable(c) {
+    var rows = c.ours.filter(function (o) { return D.best && D.best[o.key]; });
+    if (!rows.length) return '';
+    var h = '<h4 class="bh">Miglior BSR dei nostri ASIN</h4><div class="cmpwrap"><table class="cmp"><thead><tr><th>Prodotto</th><th>ASIN</th><th class="n">BSR oggi</th><th class="n">Miglior ultimo anno</th><th class="n">Miglior ultimi 2 anni</th><th class="n">Miglior di sempre</th><th class="n">Primo dato</th></tr></thead><tbody>';
+    rows.forEach(function (o) {
+      var b = D.best[o.key], sr = D.series[o.key];
+      h += '<tr class="us"><td><b>' + esc(o.family) + '</b></td><td>' + esc(o.asin) + '</td><td class="n">' + fmtN(sr ? last(sr) : null) + '</td><td class="n">' + bestCell(b.y1) + '</td><td class="n">' + bestCell(b.y2) + '</td><td class="n">' + bestCell(b.all) + '</td><td class="n">' + fmtDL(b.first) + '</td></tr>';
+    });
+    return h + '</tbody></table></div><p class="note">Miglior BSR = il valore piu\u0027 basso (migliore) nel periodo, con la data. Se l\u0027ASIN e\u0027 stato lanciato da meno di 1 o 2 anni il periodo parte dal primo dato. Lo storico Helium10 arriva al massimo a 3 anni (dal 01/11/2023): se il primo dato e\u0027 quella data, &laquo;di sempre&raquo; vale per gli ultimi 3 anni. Ignoro i tratti in cui il rank resta fermo per piu\u0027 di 14 giorni.</p>';
+  }
+  function chgHTML(t) {
+    if (t == null) return '<span>n/d</span>';
+    var p = Math.round(Math.abs(t) * 100);
+    if (t < -0.1) return '<span class="up">&#9650; \u2212' + p + '%</span>';
+    if (t > 0.1) return '<span class="down">&#9660; +' + p + '%</span>';
+    return '<span>\u2248 ' + (t > 0 ? '+' : t < 0 ? '\u2212' : '') + p + '%</span>';
+  }
+  function sw(it) { return it.dash ? 'background:repeating-linear-gradient(90deg,' + it.color + ' 0 6px,transparent 6px 9px);height:3px' : 'background:' + it.color + ';height:' + (it.us ? 4 : 3) + 'px'; }
+  function comboOf(fam, mp) { return D.combos[fam + '|' + mp]; }
+
+  document.getElementById('meta').textContent = 'Dati BSR giornalieri dal ' + fmtD(D.dates[0]) + ' al ' + fmtD(D.dates[N - 1]) + ' · fonte Helium10 · generato il ' + new Date(D.generatedAt).toLocaleDateString('it-IT');
+
+  /* ---------- overview grid ---------- */
+  function spark(arr) {
+    var from = N - 90, w = 64, h = 26, vals = [];
+    for (var i = Math.max(from, 0); i < N; i++) if (arr[i] != null) vals.push(arr[i]);
+    if (vals.length < 3) return '';
+    var lo = Math.log10(Math.min.apply(null, vals)), hi = Math.log10(Math.max.apply(null, vals));
+    if (hi - lo < 0.05) { hi += .05; lo -= .05; }
+    var d = '', pen = false, ex = 0, ey = 0;
+    for (var j = Math.max(from, 0); j < N; j++) {
+      if (arr[j] == null) { pen = false; continue; }
+      var x = (j - Math.max(from, 0)) / (N - 1 - Math.max(from, 0)) * (w - 4) + 2;
+      var y = 3 + (Math.log10(arr[j]) - lo) / (hi - lo) * (h - 6);
+      d += (pen ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1); pen = true; ex = x; ey = y;
+    }
+    return '<svg viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true"><path d="' + d + '" fill="none" stroke="var(--s1)" stroke-width="1.6" stroke-linejoin="round"/><circle cx="' + ex.toFixed(1) + '" cy="' + ey.toFixed(1) + '" r="2.4" fill="var(--s1)"/></svg>';
+  }
+  function buildGrid() {
+    var h = '<thead><tr><th class="fam">PRODOTTO</th>' + D.markets.map(function (m) { return '<th>' + m + '</th>'; }).join('') + '</tr></thead><tbody>';
+    D.families.forEach(function (f) {
+      h += '<tr><td class="fam"><b>' + esc(f.code) + '</b><span>' + esc(f.name) + '</span></td>';
+      D.markets.forEach(function (m) {
+        if (f.markets.indexOf(m) < 0) { h += '<td><div class="na" title="Non venduto in questo paese">&mdash;</div></td>'; return; }
+        var c = comboOf(f.code, m);
+        if (!c || c.status !== 'ok') { h += '<td><button class="cell" data-f="' + f.code + '" data-m="' + m + '"><div class="na" style="grid-column:1/3" title="' + esc(c && c.reason) + '">n/d</div></button></td>'; return; }
+        var s = D.series[c.hero.key];
+        if (!s) { h += '<td><button class="cell" data-f="' + f.code + '" data-m="' + m + '"><span class="now" style="color:var(--ink-3)">no dati</span></button></td>'; return; }
+        var c7 = d7(s);
+        h += '<td><button class="cell" data-f="' + f.code + '" data-m="' + m + '" aria-label="' + f.code + ' ' + m + '"><span class="now">' + fmtB(last(s)) + '</span>' + spark(s) + '<span class="tr">7g ' + chgHTML(c7 ? c7.chg : null) + '</span><span class="tr">30g ' + chgHTML(trend(s)) + '</span></button></td>';
+      });
+      h += '</tr>';
+    });
+    $('grid').innerHTML = h + '</tbody>';
+    $('grid').addEventListener('click', function (e) {
+      var b = e.target.closest('button.cell'); if (!b) return;
+      select(b.getAttribute('data-f'), b.getAttribute('data-m'), true);
+    });
+  }
+
+  /* ---------- detail ---------- */
+  function cur(v) { var l = last(v); return l == null ? 1e12 : l; }
+  function items(c, mp) {
+    var out = [];
+    c.ours.forEach(function (o, idx) {
+      var v = D.series[o.key]; if (!v) return;
+      out.push({ key: o.key, label: 'Noi \u00b7 ' + o.family, color: COLORS[0], w: idx === 0 ? 2.8 : 2.1, dash: idx === 0 ? '' : (idx === 1 ? '7 4' : '2 3'), vals: v, us: true });
+    });
+    var comp = [];
+    c.comps.forEach(function (x) { var k = x.asin + '|' + mp; if (D.series[k]) comp.push({ key: k, label: x.brand, vals: D.series[k] }); });
+    comp.sort(function (a, b) { return cur(a.vals) - cur(b.vals); });
+    comp.forEach(function (x, i) { x.color = i < 3 ? COLORS[i + 1] : 'var(--ink-3)'; x.w = i < 3 ? 1.8 : 1.2; x.muted = i >= 3; x.dash = ''; out.push(x); });
+    out.sort(function (a, b) { return cur(a.vals) - cur(b.vals); }); // strongest (lowest BSR) first
+    return out;
+  }
+  function niceTicks(lo, hi) {
+    var cand = [], p, m;
+    for (p = Math.floor(lo); p <= Math.ceil(hi); p++) [1, 2, 5].forEach(function (k) { var v = k * Math.pow(10, p); if (Math.log10(v) >= lo && Math.log10(v) <= hi) cand.push(v); });
+    while (cand.length > 7) cand = cand.filter(function (_, i) { return i % 2 === 0; });
+    return cand;
+  }
+  function drawChart(its) {
+    var el = $('chart'); var W = Math.max(el.clientWidth, 320), H = 340;
+    var pl = 52, pr = 118, pt = 12, pb = 28, from = Math.max(N - sel.range, 0);
+    var vis = its.filter(function (i) { return !sel.hidden[i.key]; });
+    var all = [];
+    vis.forEach(function (i) { for (var k = from; k < N; k++) if (i.vals[k] != null) all.push(i.vals[k]); });
+    if (!all.length) { el.innerHTML = '<div class="nodata">Nessuna serie visibile nel periodo.</div>'; return; }
+    var lo = Math.log10(Math.min.apply(null, all)) - 0.08, hi = Math.log10(Math.max.apply(null, all)) + 0.08;
+    if (hi - lo < 0.3) { var mid = (hi + lo) / 2; lo = mid - 0.15; hi = mid + 0.15; }
+    var pw = W - pl - pr, ph = H - pt - pb;
+    function X(i) { return pl + (i - from) / Math.max(N - 1 - from, 1) * pw; }
+    function Y(v) { return pt + (Math.log10(v) - lo) / (hi - lo) * ph; }
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Andamento BSR">';
+    niceTicks(lo, hi).forEach(function (t) { var y = Y(t); s += '<line class="gl" x1="' + pl + '" x2="' + (W - pr) + '" y1="' + y + '" y2="' + y + '"/><text class="axis" x="' + (pl - 6) + '" y="' + (y + 3.5) + '" text-anchor="end">' + fmtB(t) + '</text>'; });
+    var nt = Math.min(6, Math.floor(pw / 90));
+    for (var t = 0; t <= nt; t++) { var idx = Math.round(from + (N - 1 - from) * t / nt); s += '<text class="axis" x="' + X(idx) + '" y="' + (H - 8) + '" text-anchor="' + (t === 0 ? 'start' : t === nt ? 'end' : 'middle') + '">' + fmtD(D.dates[idx]) + '</text>'; }
+    var labels = [];
+    vis.slice().sort(function (a, b) { return (a.us ? 1 : 0) - (b.us ? 1 : 0); }).forEach(function (it) {
+      var d = '', pen = false, ex = null, ey = null;
+      for (var k = from; k < N; k++) {
+        if (it.vals[k] == null) { pen = false; continue; }
+        d += (pen ? 'L' : 'M') + X(k).toFixed(1) + ' ' + Y(it.vals[k]).toFixed(1); pen = true; ex = X(k); ey = Y(it.vals[k]);
+      }
+      if (!d) return;
+      s += '<path d="' + d + '" fill="none" stroke="' + it.color + '" stroke-width="' + it.w + '" stroke-dasharray="' + (it.dash || 'none') + '" stroke-linejoin="round" stroke-linecap="round"/>';
+      s += '<circle cx="' + ex.toFixed(1) + '" cy="' + ey.toFixed(1) + '" r="' + (it.us ? 4 : 3) + '" fill="' + it.color + '" stroke="var(--surface)" stroke-width="2"/>';
+      if (!it.muted) labels.push({ y: ey, text: it.label, color: it.color, x: ex });
+    });
+    labels.sort(function (a, b) { return a.y - b.y; });
+    for (var q = 1; q < labels.length; q++) if (labels[q].y - labels[q - 1].y < 13) labels[q].y = labels[q - 1].y + 13;
+    labels.forEach(function (l) { s += '<text x="' + (l.x + 9) + '" y="' + (l.y + 3.5) + '" class="axis" style="fill:var(--ink)" font-weight="600">' + esc(l.text.length > 16 ? l.text.slice(0, 15) + '…' : l.text) + '</text>'; });
+    s += '<line id="xh" y1="' + pt + '" y2="' + (H - pb) + '" stroke="var(--ink-3)" stroke-dasharray="3 3" style="display:none"/><g id="dots"></g>';
+    s += '<rect id="hit" x="' + pl + '" y="' + pt + '" width="' + pw + '" height="' + ph + '" fill="transparent"/></svg><div class="tip" id="tip" style="display:none"></div>';
+    el.innerHTML = s;
+    var hit = $('hit'), xh = $('xh'), dots = $('dots'), tip = $('tip');
+    function move(ev) {
+      var r = el.getBoundingClientRect(); var sc = W / r.width;
+      var px = (ev.clientX - r.left) * sc;
+      var idx = Math.round(from + (px - pl) / pw * (N - 1 - from)); idx = Math.max(from, Math.min(N - 1, idx));
+      var x = X(idx); xh.setAttribute('x1', x); xh.setAttribute('x2', x); xh.style.display = '';
+      var html = '<b>' + fmtD(D.dates[idx]) + '/' + D.dates[idx].slice(0, 4) + '</b>', dd = '';
+      vis.slice().sort(function (a, b) { var va = a.vals[idx], vb = b.vals[idx]; return (va == null ? 1e12 : va) - (vb == null ? 1e12 : vb); }).forEach(function (it) {
+        var v = it.vals[idx];
+        html += '<div class="r"><i style="background:' + it.color + '"></i>' + esc(it.label) + ': <b style="display:inline;margin:0">' + (v == null ? 'n/d' : fmtN(v)) + '</b></div>';
+        if (v != null) dd += '<circle cx="' + x + '" cy="' + Y(v) + '" r="3.6" fill="' + it.color + '" stroke="var(--surface)" stroke-width="1.5"/>';
+      });
+      dots.innerHTML = dd; tip.innerHTML = html; tip.style.display = '';
+      var tx = x / sc + 12; if (tx > r.width - 190) tx = x / sc - 190;
+      tip.style.left = Math.max(tx, 4) + 'px'; tip.style.top = '10px';
+    }
+    hit.addEventListener('pointermove', move); hit.addEventListener('pointerdown', move);
+    hit.addEventListener('pointerleave', function () { xh.style.display = 'none'; dots.innerHTML = ''; tip.style.display = 'none'; });
+  }
+
+  function renderDetail() {
+    var f = D.families.filter(function (x) { return x.code === sel.fam; })[0];
+    var c = comboOf(sel.fam, sel.mp);
+    $('dtitle').textContent = 'Dettaglio';
+    var h = '<div class="dhead"><h3>' + esc(sel.fam) + ' &middot; ' + esc(sel.mp) + '<small>' + esc(f.name) + '</small></h3></div>';
+    if (!c || c.status !== 'ok') {
+      $('detail').innerHTML = h + '<div class="nodata" style="margin-top:14px">Dati non disponibili per questa combinazione.<br><small>' + esc(c && c.reason) + '</small><br><small>Helium10 non ha dati su questo ASIN in questo paese: servono i competitor indicati a mano.</small></div>';
+      return;
+    }
+    var its = items(c, sel.mp);
+    h += '<div class="chips">' + (c.node ? '<span class="chip">Sottocategoria: <b>' + esc(c.nodeName || ('nodo ' + c.node)) + '</b> \u00b7 ' + esc(c.node) + '</span>' : '') + (c.reused ? '<span class="chip">lista riusata da ' + esc(c.reused) + '</span>' : '') + (c.manual ? '<span class="chip">competitor scelti a mano</span>' : '') + (c.noComps ? '<span class="chip warn">&#9888; Nessun competitor: Helium10 non ha dati sulla sottocategoria di questo ASIN. Passameli a mano.</span>' : '') + (c.flag ? '<span class="chip warn">&#9888; ' + esc(c.flag) + '</span>' : '') + '</div>';
+    var hero = D.series[c.hero.key];
+    if (!hero) { $('detail').innerHTML = h + '<div class="nodata" style="margin-top:14px">Nessuno storico BSR disponibile per il nostro ASIN ' + esc(c.hero.asin) + ' in ' + esc(sel.mp) + '.</div>' + cmpTable(c, its); return; }
+    var now = last(hero), t = trend(hero), bestC = null;
+    its.forEach(function (i) { if (!i.us) { var v = last(i.vals); if (v != null && (bestC == null || v < bestC.v)) bestC = { v: v, l: i.label }; } });
+    var hz = horizons(hero, c.hero.key);
+    function tile(label, z, hint) { return '<div class="kpi"><div class="l">' + label + '</div><div class="v">' + (z ? chgHTML(z.chg) : 'n/d') + '</div><div class="s">' + (z ? 'era ' + fmtN(z.prev) : (hint || 'dato non disponibile')) + '</div></div>'; }
+    h += '<div class="kpis"><div class="kpi"><div class="l">BSR attuale</div><div class="v">' + fmtN(now) + '</div><div class="s">' + (bestC ? 'miglior comp.: ' + esc(bestC.l) + ' ' + fmtN(bestC.v) : 'ASIN ' + esc(c.hero.asin)) + '</div></div>' +
+      tile('vs 7 giorni', hz[7]) + tile('vs 30 giorni', hz[30]) + tile('vs 60 giorni', hz[60]) + tile('vs 90 giorni', hz[90]) + tile('vs 180 giorni', hz[180]) + tile('YoY (30/10/2025)', hz.yoy, (!hz.yoy && D.best && D.best[c.hero.key] && D.best[c.hero.key].first > '2025-10-30') ? 'lanciato dopo: vedi i miglior BSR sotto' : null) + '</div>';
+    h += bestTable(c);
+    h += '<div class="toolbar"><div class="seg" role="group" aria-label="Periodo">' + [30, 90, 184].map(function (r) { return '<button data-r="' + r + '" aria-pressed="' + (sel.range === r) + '">' + (r === 184 ? '6 mesi' : r + ' giorni') + '</button>'; }).join('') + '</div>' +
+      '<div class="legend" role="group" aria-label="Serie">' + its.map(function (i) { return '<button data-k="' + esc(i.key) + '" aria-pressed="' + !sel.hidden[i.key] + '"><i style="' + sw(i) + '"></i>' + esc(i.label) + '</button>'; }).join('') + '</div></div>';
+    h += '<div id="chart"></div><p class="note">Rank migliore in alto &middot; scala logaritmica &middot; linea piena = nostro prodotto, tratteggiate = altri nostri prodotti tra i primi 5 della stessa sottocategoria &middot; competitor: i 3 con BSR piu\u0027 basso a colori, gli altri in grigio. I tratti vuoti sono giorni senza dato o rank fermo da oltre 14 giorni (listing inattivo). <button class="linkbtn" id="tbtn">' + (sel.table ? 'Nascondi' : 'Mostra') + ' i dati in tabella</button></p>';
+    if (sel.table) h += dataTable(its);
+    h += cmpTable(c, its);
+    $('detail').innerHTML = h;
+    drawChart(its);
+    $('detail').querySelectorAll('.seg button').forEach(function (b) { b.onclick = function () { sel.range = +b.getAttribute('data-r'); renderDetail(); }; });
+    $('detail').querySelectorAll('.legend button').forEach(function (b) { b.onclick = function () { var k = b.getAttribute('data-k'); sel.hidden[k] = !sel.hidden[k]; renderDetail(); }; });
+    $('tbtn').onclick = function () { sel.table = !sel.table; renderDetail(); };
+  }
+  function dataTable(its) {
+    var h = '<div style="overflow-x:auto"><table class="data"><tr><th>Data</th>' + its.map(function (i) { return '<th>' + esc(i.label) + '</th>'; }).join('') + '</tr>';
+    for (var k = N - 1; k >= Math.max(N - sel.range, 0); k -= 7) h += '<tr><td>' + fmtD(D.dates[k]) + '</td>' + its.map(function (i) { return '<td>' + fmtN(i.vals[k]) + '</td>'; }).join('') + '</tr>';
+    return h + '</table></div>';
+  }
+  function cmpTable(c, its) {
+    var itOf = {}; its.forEach(function (i) { itOf[i.key] = i; });
+    var cols = [[7, '7 gg'], [30, '30 gg'], [60, '60 gg'], [90, '90 gg'], [180, '180 gg'], ['yoy', 'YoY']];
+    var rows = [];
+    c.ours.forEach(function (o) { rows.push({ us: true, who: '<b>Koala Babycare</b> \u00b7 ' + esc(o.family), asin: o.asin, key: o.key, sub: o.sub, sales: o.sales, fb: null }); });
+    c.comps.forEach(function (x) { rows.push({ us: false, who: esc(x.brand), asin: x.asin, key: x.asin + '|' + sel.mp, sub: x.sub, sales: x.sales, fb: x.rank }); });
+    rows.forEach(function (r) { r.sr = D.series[r.key]; r.now = r.sr ? last(r.sr) : r.fb; r.hz = r.sr ? horizons(r.sr, r.key) : null; });
+    rows.sort(function (a, b) { return (a.now == null ? 1e12 : a.now) - (b.now == null ? 1e12 : b.now); });
+    var h = '<div class="cmpwrap"><table class="cmp"><thead><tr><th>Chi</th><th>ASIN</th><th class="n">BSR oggi</th>' + cols.map(function (x) { return '<th class="n">' + x[1] + '</th>'; }).join('') + '<th class="n">Pos. sottocat.</th><th class="n">Vendite/mese</th></tr></thead><tbody>';
+    rows.forEach(function (r) {
+      var it = itOf[r.key];
+      h += '<tr class="' + (r.us ? 'us' : '') + '"><td>' + (it ? '<i style="' + sw(it) + ';width:14px"></i>' : '') + r.who + '</td><td>' + esc(r.asin) + '</td><td class="n">' + fmtN(r.now) + '</td>' +
+        cols.map(function (x) { var z = r.hz && r.hz[x[0]]; return '<td class="n" title="' + (z ? 'era ' + fmtN(z.prev) + ' il ' + fmtD(z.date) : '') + '">' + (z ? chgHTML(z.chg) : '\u2014') + '</td>'; }).join('') +
+        '<td class="n">' + (r.sub == null ? 'n/d' : '#' + r.sub) + '</td><td class="n">' + fmtN(r.sales) + '</td></tr>';
+    });
+    return h + '</tbody></table></div><p class="note">Righe e legenda ordinate dal BSR piu\u0027 basso (il piu\u0027 forte). Le variazioni confrontano il BSR di oggi con quello di N giorni fa (\u25b2 migliora, \u25bc peggiora oltre il 10%); passando sopra una cella vedi il valore di allora. Il BSR giornaliero oscilla anche del 20% da solo: guarda la direzione sui periodi lunghi. Competitor: primi parent per vendite mensili nella sottocategoria (stime Helium10, escluso Koala Babycare); la riga ha le variazioni solo se ho scaricato il suo storico, altrimenti il BSR e\u0027 quello del 30/10. YoY: solo per i nostri ASIN. Del nostro prodotto mostro un solo ASIN (quello che vende di piu\u0027 nel paese); altri nostri prodotti compaiono solo se tra i primi 5 della sottocategoria.</p>';
+  }
+
+  function select(f, m, scroll) {
+    sel.fam = f; sel.mp = m; sel.hidden = {};
+    try { history.replaceState(null, '', '#' + f + '-' + m); } catch (e) {}
+    document.querySelectorAll('button.cell').forEach(function (b) { b.setAttribute('aria-current', b.getAttribute('data-f') === f && b.getAttribute('data-m') === m ? 'true' : 'false'); });
+    renderDetail();
+    if (scroll) $('dtitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  buildGrid();
+  var start = null, hsh = (location.hash || '').replace('#', '').split('-');
+  if (hsh.length === 2 && comboOf(hsh[0], hsh[1])) start = hsh;
+  if (!start) {
+    for (var i = 0; i < D.families.length && !start; i++) for (var j = 0; j < D.markets.length; j++) { var c = comboOf(D.families[i].code, D.markets[j]); if (c && c.status === 'ok' && D.series[c.hero.key]) { start = [D.families[i].code, D.markets[j]]; break; } }
+  }
+  if (start) select(start[0], start[1], false);
+  var rz; window.addEventListener('resize', function () { clearTimeout(rz); rz = setTimeout(function () { if (sel.fam && $('chart')) renderDetail(); }, 150); });
+})();
+</script>
+</body>
+</html>

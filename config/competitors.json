@@ -1,0 +1,124 @@
+{
+  "families": {
+    "KCB": { "name": "Fascia porta-bebe", "asin": "B07G84LSYJ", "marketplaces": ["IT","FR","DE","ES","UK","US"] },
+    "KSC": { "name": "Coppette paracapezzoli", "asin": "B085NY3RJQ", "marketplaces": ["IT","FR","DE","ES","UK","US"] },
+    "KST": { "name": "Mussole", "asin": "B0B5LCT5LT", "marketplaces": ["IT","FR","DE","ES","UK","US"] },
+    "CBA": { "name": "Organizer fasciatoio", "asin": "B0GYFNKKJQ", "marketplaces": ["IT","FR","DE","ES","UK","US"] },
+    "KBB": { "name": "Fascia gravidanza", "asin": "B0BFN5ZX4B", "marketplaces": ["IT","FR","DE","ES","UK","US"] },
+    "CBR": { "name": "Fascia estiva/mare", "asin": "B0FCS94QLM", "marketplaces": ["IT","FR","DE","ES","UK","US"] },
+    "KPH": { "name": "Cuscino Plagiocefalia", "asin": "B071493954", "marketplaces": ["IT","FR","DE","ES","UK"] },
+    "KPHB": { "name": "Cuscino Allattamento/Plagio", "asin": "B07FC1DTZ3", "marketplaces": ["IT","FR","DE","ES","UK"] },
+    "HUG": { "name": "Cuscino Gravidanza", "asin": "B0DQYQFXFL", "marketplaces": ["IT","FR","DE","ES","UK"] },
+    "KCB2": { "name": "Cuddle Band 2.0", "asin": "B0B972NB6J", "marketplaces": ["IT","FR","DE","ES","UK"] },
+    "CCA": { "name": "Marsupio evolutivo", "asin": "B0H71TR6L7", "marketplaces": ["IT","FR","DE","ES","UK"] },
+    "CWS": { "name": "Fascia non pre-annodata", "asin": "B0B9757Q46", "marketplaces": ["IT","FR","DE","ES","UK"],
+      "asin_overrides": { "UK": "B0B976QVVX" },
+      "note": "UK catalog uses a different color-variant ASIN (B0B976QVVX) than IT/FR/DE/ES (B0B9757Q46) for this family; verified via list_my_products on 2026-09-02." },
+    "KSF": { "name": "Doudou", "asin": "B0F9FPJDD6", "marketplaces": ["IT","FR","ES","UK"],
+      "asin_overrides": { "IT": "B0F9FPJDD6", "FR": "B0F9FM22CZ", "ES": "B0F9FW99YW", "UK": "B0F83TXC3X" },
+      "note": "Not sold in DE (confirmed via list_my_products, 0 rows) so DE dropped from marketplaces. Each EU marketplace uses a different parent/child ASIN for this family (KSF_IT_PARENT / KSF_PARENT_FRANCIA / KSF_ES_PARENT / no UK parent so a representative child variant B0F83TXC3X is used for UK). Verified 2026-09-02." }
+  },
+
+  "competitors": {
+    "KCB": {
+      "IT": ["B08MXSBRSB","B09TW72XZQ","B07GBRCCG7","B004QJ2MU2","B00D3HUJH6","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B0FJRSPXTV","B0FJRP1D9C"],
+      "FR": ["B08WKCD19K","B0FJRR17NX","B0FJRPSM7Y","B0FJRPSHVT","B0FJRTK5ZC","B0FJRSPXTV","B0FJRRFRSM","B0FJRQTW2Y","B0GQGQZMCP","B0GQH1372V"],
+      "DE": ["B08WKCD19K","B0FJRQTW2Y","B0FDKPSXMC","B0FJRP1D9C","B0FJRR17NX","B0FJRPSM7Y","B0FJRPSHVT","B0FJRTK5ZC","B0FJRRFRSM","B0FJRSPXTV"],
+      "ES": ["B0D2HQCPX2","B0BNP1G2ZD","B0C2Z2XZQ1","B09DQ7THHW","B09NNLVLZL","B09DQ9V4TF","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B07BTXTR5B"],
+      "UK": ["B08MXSBRSB","B00125KZN4","B0F8P9GBZN","B08BD8TFV4","B00M0DWQYI","B007ZNGUZY","B07XMN3SK6","B0D9ZNFPPY","B0BXBBDR3R","B0D9WT5PCP"],
+      "US": ["B0CDQ1XH6W","B0CLGC1MTX","B0CLGCN5ZS","B0CDQ2KVJD","B0DT26P1ZZ","B0DT2FTZDT","B0DT23BQZ9","B0DT217CVC","B0G5SWL84L","B0G5SRMLWG"]
+    },
+    "KSC": {
+      "IT": ["B08MXSBRSB","B08HDGKR5B","B0CYQGPW92","B0F9YGJ67D","B08WKCD19K","B0CYQCV5RL","B0788CC2Y1","B0C2VH5RBT","B09TR78PDY","B0CPQ7GXM8"],
+      "FR": ["B0BHW9YVV5","B0C745GZ55","B0788CC2Y1","B0C2VH5RBT","B0GYDD2TSJ","B01M00IESK","B01LZ1HHHQ","B01M00RT6F","B098F53X12","B0CHWK3W92"],
+      "DE": ["B077J28XTC","B0GLHXDMZH","B0FR4XDT8J","B08Z4BVDH7","B0F6NB868X","B09B466DS7","B0FH2Z97PV","B00D4MWKNQ","B07XGC8RBB","B01N442AFX"],
+      "ES": [],
+      "US": ["B001PU9A9Q","B0D3195F82","B08H9QJVNZ","B0070SKP1O","B003U3SWEA","B06XPHR7DF","B00D4MWKNQ","B07XGC8RBB","B0B4H6GXCW","B0B4H75CJZ"]
+    },
+    "KST": {
+      "IT": ["B0BZ56DNGW","B08MXSBRSB","B07FH9NJDG","B004QJ2MU2","B00D3HUJH6","B0CGMPNGSG","B0FJRR17NX","B0DHVP32TC","B0DHVKP97G","B0FK5PP877"],
+      "FR": ["B0FJRR17NX","B0GQH1372V","B0GQGQZMCP","B0GQH2GJ4P","B0D9WT5PCP","B0GYDD2TSJ","B0DP4FXLCG","B0DP4FWVG5","B0DP4CWKSB","B0F87MKZXT"],
+      "DE": ["B08WKCD19K","B0GQH1372V","B071G34DXK","B00M0DWQYI"],
+      "UK": ["B09GPJHCQL","B08MXSBRSB","B0F3P556CQ","B0C2Z2XZQ1","B0FJRR17NX","B0GQH2GJ4P","B0CQC2ZRHH","B07YB5FCY6","B0F34TX5F8","B08VK9N4BP"],
+      "US": ["B09FX7TFJV","B09573GMW6","B0F5BD5B5M","B0FVFW5MNJ","B0F5BBVR1Q","B0B6GYP8QH","B0CLPGQWNB","B08CBJ2SSQ","B0C5DCZ8XY","B0DMVH65C7"]
+    },
+    "CBA": {
+      "IT": ["B004QJ2MU2","B0FJRR17NX","B0DHVP32TC","B08ZKPPSND","B07Q4JVFNH","B00M0DWQYI","B01FF518KK","B0D5CZ1XGQ","B0DKTFMHT9","B0792G6PFD"],
+      "FR": ["B0CRYPFSPT","B0FJRR17NX","B0GQH1372V","B08MTXS224","B09SHJHN42","B0CY2DFZ2F","B0FQTHXNGR","B0FF2RM7Y4","B0FQTXYC6C","B0FQTPZ7ZW"],
+      "DE": ["B08WKCD19K","B09VPKKMMF","B08H59YJRT","B0GQH1372V","B08GLQ6QJF","B0BMMRCSNK","B091DZ7NQJ","B087BWQL4Y","B0FQTHXNGR","B0FF2RM7Y4"],
+      "ES": ["B08MXSBRSB","B0CM434FSV","B0FJRR17NX","B07N1JP56L","B07RY35ZD1","B0GQH2GJ4P","B0CQC2ZRHH","B01DIMTWCS","B0B4NDJRS2","B0D9PWJG9V"],
+      "UK": [],
+      "US": ["B0CDQ2KVJD","B098X8WS7Y","B0BGMHTBP5","B0D9W18YZH","B0BWSML9XT","B0F3X6H4VG","B09Y28XY6D","B0G2ZV6CCY","B0G1RXV7CN","B0H2XHPTXZ"]
+    },
+    "KBB": {
+      "FR": ["B0FJRR17NX","B0GQH1372V","B0D8JXMC7C","B01FF518KK","B0CWPH4T2B","B0DPW1D5W5","B0943F7G59","B0F4MTFPV9","B0F4MRF65B","B01N6Q89GD"],
+      "ES": ["B08MXSBRSB","B0C2Z2XZQ1","B0FJRR17NX","B0GQH2GJ4P","B0D2P9NSHD","B073XLDPJY","B0FY658F86","B0FY61QZHN","B0FY629BB6","B0FY5PGLWG"],
+      "US": ["B0GN8Y4RJX","B0D8QPC7H9","B0DDQ5Q2LT","B0FN766SSY","B0DDQ679GB","B0D8QNSYHK","B0D8QPHYYW","B0D8QPSK61","B09QRHY95G","B005DLKZYW"]
+    },
+    "CBR": {
+      "IT": ["B0F7ZGDDCX","B0DQ9KDKT2","B0FJRR17NX","B0FJRPSM7Y","B0FJRRFRSM","B0FJRP1D9C","B0FJRTK5ZC","B07HQJL9VV","B01FF518KK","B00M0DWQYI"],
+      "FR": ["B0FJRP1D9C","B0FJRR17NX","B0FJRPSM7Y","B0FJRSPXTV","B0FJRQTW2Y","B0FJRTK5ZC","B0FFMT1HCY","B0GQH1372V","B0GQGQZMCP","B0GQH2GJ4P"],
+      "DE": ["B0FFMT1HCY","B0FJRQTW2Y","B0D33949HD","B0FJRR17NX","B0FJRPSM7Y","B0FJRSPXTV","B0FJRRFRSM","B0FJRPSHVT","B0C2Z2XZQ1","B09DQ7THHW"],
+      "ES": ["B08MXSBRSB","B0C2Z2XZQ1","B09NNLVLZL","B09DQ7THHW","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B07BTXTR5B","B07VS43XKB","B09F3PH897"],
+      "UK": []
+    },
+    "KPH": {
+      "IT": ["B0FJRR17NX","B0DHVP32TC","B0DHVN48H1","B0DHVKP97G","B07V3893FP","B07Q4JVFNH","B00M0DWQYI","B01FF518KK","B0CCZ1NFS1","B0CCYW6PRD"],
+      "FR": ["B0FJRR17NX","B0GQH1372V","B0GQGQZMCP","B09WP4BPBH","B0B4NDJRS2","B0DK3GXZCM","B0F2HT9D87","B07Q4JVFNH","B07XC6YCC5","B077DTJZ2P"],
+      "DE": ["B0BWK6TH2D","B07N1JP56L","B08WKCD19K","B07KCKWGSG","B0FJRR17NX","B09QT24X33","B0CN191GWG","B0F62V7R13","B0F1Y6V1JV","B01L5Z0KVC"],
+      "ES": ["B09GPJHCQL","B08MXSBRSB","B08ZMYG9RC","B082N3CB8G","B0BNP1G2ZD","B0FJRR17NX","B003Q3FPR6","B07N1JP56L","B0CJVMKPNZ","B09XK8LQGX"],
+      "UK": ["B0D83CDPYC","B002IS0M32","B07CK62SSQ","B0CNRHV94B","B00W6ZF8XQ","B0953QK76G","B07SPS1CM8","B0FVS8NJ21","B0DQD11K9W","B0DQD35XJ7"]
+    },
+    "KPHB": {
+      "IT": ["B0DHVP32TC","B0DHVN48H1","B07V3893FP","B0DHVKP97G","B07VS43XKB","B0GFD4FX6T","B0GFCNK2ZY","B07Q4JVFNH","B08WKCD19K","B0FYYF4MMF"],
+      "FR": ["B08WKCD19K","B0FJRR17NX","B0GQH1372V","B0GQGQZMCP","B0CQL6LN7W","B0DW93CGX8","B09XHVC8CF","B0DHVN48H1","B0DHVKP97G","B09WP4BPBH"],
+      "DE": ["B01F24Z4PY","B08WKCD19K","B07N1JP56L","B0FJRR17NX","B09DQ7THHW","B0B4S2WTK8","B0BZS4TK3V","B09KNLMXDV","B09LYJ9WPS","B0B4S59XBS"],
+      "ES": ["B09GPJHCQL","B08MXSBRSB","B082N3CB8G","B0BNP1G2ZD","B0FJRR17NX","B003Q3FPR6","B07N1JP56L","B0CJVMKPNZ","B09XK8LQGX","B0DMR1LB4F"],
+      "UK": ["B0FVS8NJ21","B0DQD11K9W","B0DQD35XJ7","B0F8B1GHSS","B075YT7V14","B07P9HY6YG","B0DWK7XG9D","B0FMS53D61","B0BFFGSLMW","B0GL1GTVCW"]
+    },
+    "HUG": {
+      "IT": ["B07VRRF1CQ","B0FJRR17NX","B0DHVP32TC","B07VS43XKB","B0DHVN48H1","B07V3893FP","B0GFCNK2ZY","B0DHVKP97G","B0GFD4FX6T","B0GFD74WKL"],
+      "DE": ["B08WKCD19K","B07N1JP56L","B0B4S2WTK8","B0F1Y6V1JV","B01L5Z0KVC","B0GFD74WKL","B0GFD3M6KH","B0GQH1372V","B0CB82P7RB","B09F3PH897"],
+      "ES": ["B08MXSBRSB","B0788CC2Y1","B0C2Z2XZQ1","B0FJRR17NX","B09XK8LQGX","B0D9BN178S","B0D1JWY4WR","B09XK676FH","B07VS43XKB","B07KG3PTBV"],
+      "UK": []
+    },
+    "KCB2": {
+      "IT": ["B08MXT5VDK","B0DQ9KDKT2","B0FJRR17NX","B0FJRPSM7Y","B0DHVP32TC","B07Q4JVFNH","B00M0DWQYI","B01FF518KK","B07BTXTR5B","B0FNR99GXK"],
+      "FR": ["B0FJRP1D9C","B09XK8LQGX","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B0GQH1372V","B0GQGQZMCP","B0GQH2GJ4P","B0GQGYB7FK","B0GQH2RSGC"],
+      "DE": ["B0FDKPSXMC","B0FJRR17NX","B0FJRPSM7Y","B0FJRSPXTV","B0FJRPSHVT","B0C2Z2XZQ1","B09DQ9V4TF","B09NNLVLZL","B09DQ7THHW","B07BTXTR5B"],
+      "ES": ["B08MXSBRSB","B0C2Z2XZQ1","B09DQ7THHW","B0F66T91L8","B09NNLVLZL","B09DQ9V4TF","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B08WKCD19K"],
+      "UK": []
+    },
+    "CCA": {
+      "IT": ["B08MXSBRSB","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B0DHVN48H1","B0DHVP32TC","B07Q4JVFNH","B0G5SRMLWG","B00M0DWQYI","B01FF518KK"],
+      "FR": ["B08WKCD19K","B0FJRR17NX","B0FJRPSM7Y","B0GQH1372V","B0GQGQZMCP","B0GQH2GJ4P","B00M0DWQYI","B0D9WT5PCP","B01FF518KK","B0FNR99GXK"],
+      "DE": ["B08WKCD19K","B0FDKPSXMC","B0FJRP1D9C","B0FJRR17NX","B0FJRPSM7Y","B0FJRPSHVT","B0FJRTK5ZC","B0C2Z2XZQ1","B09DQ9V4TF","B09NNLVLZL"],
+      "ES": ["B08MXSBRSB","B09NNLVLZL","B0C2Z2XZQ1","B09DQ7THHW","B09YZ18RQD","B0FJRR17NX","B0FJRPSM7Y","B0FJRTK5ZC","B06Y34XPVQ","B07BTXTR5B"],
+      "UK": []
+    },
+    "KSF": { "IT": [], "FR": [], "ES": [], "UK": [] },
+    "CWS": {}
+  },
+
+  "failed_discovery": [
+    { "family": "KSC", "marketplace": "UK", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap; ASIN B085NY3RJQ is a real UK listing per list_my_products)" },
+    { "family": "KST", "marketplace": "ES", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap)" },
+    { "family": "KBB", "marketplace": "IT", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap; confirmed real IT listing)" },
+    { "family": "KBB", "marketplace": "DE", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap; confirmed real DE listing)" },
+    { "family": "KBB", "marketplace": "UK", "reason": "ASIN B0BFN5ZX4B genuinely not sold in UK catalog (only sibling color-variant ASINs are); no UK substitute attempted" },
+    { "family": "CBR", "marketplace": "US", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap)" },
+    { "family": "HUG", "marketplace": "FR", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap, retried once)" },
+    { "family": "CWS", "marketplace": "IT", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap)" },
+    { "family": "CWS", "marketplace": "FR", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap)" },
+    { "family": "CWS", "marketplace": "DE", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap)" },
+    { "family": "CWS", "marketplace": "ES", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap)" },
+    { "family": "CWS", "marketplace": "UK", "reason": "H10 INVALID_ASIN_FOR_MARKETPLACE (data gap, tried override ASIN B0B976QVVX)" }
+  ],
+
+  "notes": [
+    "KSF is not sold in DE at all (confirmed via list_my_products) so it only has 4 marketplaces (IT/FR/ES/UK), making the true daily combo count 70, not 71.",
+    "'failed_discovery' entries had search_competitors_by_asin error, so they have no competitor list (empty array in 'competitors'); the daily snapshot script should still attempt get_competitor_overview for these with an empty competitor_asins list to at least capture the hero ASIN's own BSR, and should log if that also fails.",
+    "Where discovery returned an empty (but successful) competitor_products array, the family/marketplace IS valid and should be queried daily; it simply has no distinct competitor ASINs, so get_competitor_overview will only return the main ASIN + top_competitors_avg (auto-discovered by upstream).",
+    "Generated during initial discovery run on 2026-09-02."
+  ]
+}

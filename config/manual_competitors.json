@@ -1,0 +1,248 @@
+{
+ "KSC|US": {
+  "note": "Competitor indicati a mano dall'utente il 2026-10-30 (coppette in argento)",
+  "competitors": [
+   {
+    "asin": "B00D4MWKNQ",
+    "brand": "Silverette",
+    "parent": "B0HFJ61YP4",
+    "rank": 451,
+    "sub": 6,
+    "sales": 16213
+   },
+   {
+    "asin": "B0D66JT3LS",
+    "brand": "Momcozy",
+    "parent": "B0HF4MX15B",
+    "rank": 1631,
+    "sub": 21,
+    "sales": 4748
+   },
+   {
+    "asin": "B0CSR614NY",
+    "brand": "Willow",
+    "parent": "B0CSR614NY",
+    "rank": 2237,
+    "sub": 23,
+    "sales": 2551
+   },
+   {
+    "asin": "B09SZ9TGBX",
+    "brand": "Boboduck",
+    "parent": "B0G5PRXKL8",
+    "rank": 3525,
+    "sub": 33,
+    "sales": 1231
+   },
+   {
+    "asin": "B0D5XCLJ5K",
+    "brand": "NISXABEBE",
+    "parent": "B0DBRHB9CW",
+    "rank": 3593,
+    "sub": 36,
+    "sales": 1408
+   },
+   {
+    "asin": "B0D1G682GD",
+    "brand": "BABYHIG",
+    "parent": "B0D1G682GD",
+    "rank": 3675,
+    "sub": 38,
+    "sales": 1295
+   },
+   {
+    "asin": "B0GC34638L",
+    "brand": "Dersilveign",
+    "parent": "B0GVL2GJ3F",
+    "rank": 4028,
+    "sub": 40,
+    "sales": 1170
+   },
+   {
+    "asin": "B0F1CT8S43",
+    "brand": "MOOGCO",
+    "parent": "B0HMJSK78C",
+    "rank": 5432,
+    "sub": 57,
+    "sales": 378
+   },
+   {
+    "asin": "B0BRTYLVYV",
+    "brand": "FATI",
+    "parent": "B0D7M8TVN2",
+    "rank": 8451,
+    "sub": 72,
+    "sales": 433
+   },
+   {
+    "asin": "B0GPSLCLNW",
+    "brand": "GoMommy",
+    "parent": "B0FTZQVKCB",
+    "rank": 8944,
+    "sub": 76,
+    "sales": 326
+   }
+  ]
+ },
+ "KSC|IT": {
+  "note": "Competitor indicati a mano dall'utente il 2026-10-30",
+  "competitors": [
+   {
+    "asin": "B09B466DS7",
+    "brand": "COVERbasics",
+    "parent": "B09B466DS7",
+    "rank": 708,
+    "sub": null,
+    "sales": 281
+   },
+   {
+    "asin": "B0GLHXDMZH",
+    "brand": "Livella",
+    "parent": "B0GLHXDMZH",
+    "rank": 11275,
+    "sub": null,
+    "sales": 114
+   }
+  ]
+ },
+ "KSC|FR": {
+  "note": "Competitor indicati a mano dall'utente il 2026-10-30",
+  "competitors": [
+   {
+    "asin": "B09B466DS7",
+    "brand": "COVERbasics",
+    "parent": "B09B466DS7",
+    "rank": 1151,
+    "sub": null,
+    "sales": 139
+   },
+   {
+    "asin": "B0GLHXDMZH",
+    "brand": "Livella",
+    "parent": "B0GLHXDMZH",
+    "rank": 981,
+    "sub": null,
+    "sales": 320
+   }
+  ]
+ },
+ "KSC|DE": {
+  "note": "Competitor indicati a mano dall'utente il 2026-10-30",
+  "competitors": [
+   {
+    "asin": "B09B466DS7",
+    "brand": "COVERbasics",
+    "parent": "B09B466DS7",
+    "rank": 2195,
+    "sub": null,
+    "sales": 349
+   },
+   {
+    "asin": "B0GLHXDMZH",
+    "brand": "Livella",
+    "parent": "B0GLHXDMZH",
+    "rank": 3180,
+    "sub": null,
+    "sales": 586
+   }
+  ]
+ },
+ "KSC|ES": {
+  "note": "Competitor indicati a mano dall'utente il 2026-10-30",
+  "competitors": [
+   {
+    "asin": "B09B466DS7",
+    "brand": "COVERbasics",
+    "parent": "B09B466DS7",
+    "rank": 1074,
+    "sub": null,
+    "sales": 179
+   },
+   {
+    "asin": "B0GLHXDMZH",
+    "brand": "Livella",
+    "parent": "B0GLHXDMZH",
+    "rank": 1197,
+    "sub": null,
+    "sales": 0
+   }
+  ]
+ },
+ "KSC|UK": {
+  "note": "Competitor indicati a mano dall'utente il 2026-10-30",
+  "competitors": [
+   {
+    "asin": "B0D1G682GD",
+    "brand": "BABYHIG",
+    "parent": "B0D1G682GD",
+    "rank": 680,
+    "sub": 32,
+    "sales": 771
+   },
+   {
+    "asin": "B0FF3HNVXR",
+    "brand": "THE MOMFY",
+    "parent": "B0FF3HNVXR",
+    "rank": 1193,
+    "sub": 46,
+    "sales": 468
+   },
+   {
+    "asin": "B0H2BRPN2Y",
+    "brand": "URBANZEST",
+    "parent": "B0H2BRPN2Y",
+    "rank": 2465,
+    "sub": 99,
+    "sales": 271
+   },
+   {
+    "asin": "B09B466DS7",
+    "brand": "COVERbasics",
+    "parent": "B09B466DS7",
+    "rank": 3131,
+    "sub": 127,
+    "sales": 59
+   },
+   {
+    "asin": "B0FP27SVLP",
+    "brand": "H8W8H",
+    "parent": "B0FP27SVLP",
+    "rank": 3113,
+    "sub": 127,
+    "sales": 203
+   },
+   {
+    "asin": "B0GVZS24TG",
+    "brand": "Paruu",
+    "parent": "B0GVZS24TG",
+    "rank": 4571,
+    "sub": 192,
+    "sales": 136
+   },
+   {
+    "asin": "B0FS26B5B9",
+    "brand": "Lethra",
+    "parent": "B0FS26B5B9",
+    "rank": 4258,
+    "sub": 176,
+    "sales": 144
+   },
+   {
+    "asin": "B0G4ZTF3TR",
+    "brand": "momcozy",
+    "parent": "B0G4ZTF3TR",
+    "rank": 8977,
+    "sub": 370,
+    "sales": 72
+   },
+   {
+    "asin": "B00D4MWKNQ",
+    "brand": "Silverette",
+    "parent": "B00D4MWKNQ",
+    "rank": 4482,
+    "sub": null,
+    "sales": 65
+   }
+  ]
+ }
+}
