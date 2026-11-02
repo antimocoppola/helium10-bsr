@@ -14,9 +14,26 @@ const storeFile = P("database", "bsr_series.json");
 const store = JSON.parse(fs.readFileSync(storeFile, "utf8"));
 const MPS = ["IT", "FR", "DE", "ES", "UK", "US"];
 
+// every ASIN worth a daily point: series already stored + all competitors of the 60 charts (sub-category lists and manual lists) + hero ASINs.
+// New competitors start their own history from the first day they appear here (no extra API calls: same 6 searches).
+function trackedKeys() {
+  const keys = new Set(Object.keys(store.series));
+  const rd = (n) => JSON.parse(fs.readFileSync(P("config", n), "utf8"));
+  const sets = rd("competitor_sets.json");
+  for (const [k, s] of Object.entries(sets)) {
+    if (s.status !== "ok") continue;
+    const mp = k.split("|")[1];
+    if (s.hero) keys.add(`${s.hero}|${mp}`);
+    for (const c of s.competitors || []) keys.add(`${c.asin}|${mp}`);
+  }
+  for (const [k, m] of Object.entries(rd("manual_competitors.json"))) for (const c of m.competitors) keys.add(`${c.asin}|${k.split("|")[1]}`);
+  return keys;
+}
+const TRACKED = trackedKeys();
+
 if (process.argv[2] === "--list") {
   const by = {};
-  for (const k of Object.keys(store.series)) {
+  for (const k of TRACKED) {
     const [a, m] = k.split("|");
     (by[m] = by[m] || []).push(a);
   }
@@ -37,7 +54,8 @@ for (const mp of MPS) {
   let n = 0;
   for (const [asin, rank, upd] of rows) {
     const key = `${asin}|${mp}`;
-    if (!store.series[key] || rank == null) continue;
+    if (!TRACKED.has(key) || rank == null) continue;
+    store.series[key] = store.series[key] || {};
     got.add(asin);
     // rank not refreshed by Amazon/Helium10 for more than 14 days = stale, leave the day empty
     if (upd && (dateMs / 1000 - upd) > 14 * 86400) { stale++; continue; }
@@ -50,7 +68,7 @@ for (const mp of MPS) {
     const b = store.best && store.best[key];
     if (b) for (const w of ["y1", "y2", "all"]) if (b[w] && rank < b[w].bsr) b[w] = { bsr: rank, date };
   }
-  const tracked = Object.keys(store.series).filter((k) => k.endsWith("|" + mp)).length;
+  const tracked = [...TRACKED].filter((k) => k.endsWith("|" + mp)).length;
   missing += tracked - got.size;
   added += n;
   summary[mp] = `${n}/${tracked}`;
