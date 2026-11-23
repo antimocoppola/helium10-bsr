@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = (...a) => path.join(ROOT, ...a);
-const YEAR = "2026", END = "2026-11-22";
+const YEAR = "2026", END = "2026-11-23";
 const storeFile = P("database", "bsr_series.json");
 const store = JSON.parse(fs.readFileSync(storeFile, "utf8"));
 const dir = P("tmp", "gap2");
